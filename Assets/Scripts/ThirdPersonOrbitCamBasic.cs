@@ -7,8 +7,8 @@ public class ThirdPersonOrbitCamBasic : MonoBehaviour
 	public Vector3 pivotOffset = new Vector3(0.0f, 1.7f,  0.0f);       // 카메라 오프셋
 	public Vector3 camOffset   = new Vector3(0.0f, 0.0f, -3.0f);       // 플레이어 위치와 관련된 카메라 위치를 재배치하는 오프셋
     public float smooth = 10f;                                         // 카메라 반응속도
-	public float horizontalAimingSpeed = 6f;                           // 수평 회전속도
-	public float verticalAimingSpeed = 6f;                             // 수직 회전속도
+	public float horizontalAimingSpeed = 10f;                           // 수평 회전속도
+	public float verticalAimingSpeed = 10f;                             // 수직 회전속도
 	public float maxVerticalAngle = 30f;                               // 카메라 최대 각
 	public float minVerticalAngle = -60f;                              // 카메라 최소각
 	public string XAxis = "Analog X";                                  // 축이름설정
