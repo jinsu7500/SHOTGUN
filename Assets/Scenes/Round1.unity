@@ -1362,6 +1362,9 @@ MeshFilter:
 --- !u!1 &547805562
 GameObject:
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of f8206d8 (Merge branch 'main' of https://github.com/jinsu7500/SHOTGUN into main)
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -1381,6 +1384,9 @@ GameObject:
   m_IsActive: 1
 --- !u!4 &547805563
 Transform:
+<<<<<<< HEAD
+=======
+>>>>>>> parent of f8206d8 (Merge branch 'main' of https://github.com/jinsu7500/SHOTGUN into main)
 =======
 >>>>>>> parent of f8206d8 (Merge branch 'main' of https://github.com/jinsu7500/SHOTGUN into main)
   m_ObjectHideFlags: 0
@@ -1388,6 +1394,9 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of f8206d8 (Merge branch 'main' of https://github.com/jinsu7500/SHOTGUN into main)
   m_GameObject: {fileID: 547805562}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 62.2, y: 0, z: 142.8}
@@ -1398,6 +1407,7 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &547805564
 BoxCollider:
+<<<<<<< HEAD
 =======
   serializedVersion: 6
   m_Component:
@@ -1415,12 +1425,17 @@ BoxCollider:
 --- !u!4 &547805563
 Transform:
 >>>>>>> parent of f8206d8 (Merge branch 'main' of https://github.com/jinsu7500/SHOTGUN into main)
+=======
+>>>>>>> parent of f8206d8 (Merge branch 'main' of https://github.com/jinsu7500/SHOTGUN into main)
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 547805562}
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of f8206d8 (Merge branch 'main' of https://github.com/jinsu7500/SHOTGUN into main)
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
@@ -1429,6 +1444,7 @@ Transform:
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &547805565
 MeshRenderer:
+<<<<<<< HEAD
 =======
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 62.2, y: 0, z: 142.8}
@@ -1440,12 +1456,17 @@ MeshRenderer:
 --- !u!65 &547805564
 BoxCollider:
 >>>>>>> parent of f8206d8 (Merge branch 'main' of https://github.com/jinsu7500/SHOTGUN into main)
+=======
+>>>>>>> parent of f8206d8 (Merge branch 'main' of https://github.com/jinsu7500/SHOTGUN into main)
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 547805562}
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of f8206d8 (Merge branch 'main' of https://github.com/jinsu7500/SHOTGUN into main)
   m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -1482,6 +1503,7 @@ BoxCollider:
   m_AdditionalVertexStreams: {fileID: 0}
 --- !u!33 &547805566
 MeshFilter:
+<<<<<<< HEAD
 =======
   m_Material: {fileID: 0}
   m_IsTrigger: 0
@@ -1539,38 +1561,49 @@ GameObject:
 --- !u!33 &547805566
 MeshFilter:
 >>>>>>> parent of f8206d8 (Merge branch 'main' of https://github.com/jinsu7500/SHOTGUN into main)
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-<<<<<<< HEAD
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 571516391}
-  - component: {fileID: 571516394}
-  - component: {fileID: 571516393}
-  - component: {fileID: 571516392}
-  m_Layer: 0
-  m_Name: we
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &571516391
-Transform:
 =======
-  m_GameObject: {fileID: 547805562}
-  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1 &571516390
-GameObject:
 >>>>>>> parent of f8206d8 (Merge branch 'main' of https://github.com/jinsu7500/SHOTGUN into main)
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 571516391}
+  - component: {fileID: 571516394}
+  - component: {fileID: 571516393}
+  - component: {fileID: 571516392}
+  m_Layer: 0
+  m_Name: we
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &571516391
+Transform:
 =======
+=======
+>>>>>>> parent of f8206d8 (Merge branch 'main' of https://github.com/jinsu7500/SHOTGUN into main)
+  m_GameObject: {fileID: 547805562}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &571516390
+GameObject:
+<<<<<<< HEAD
+>>>>>>> parent of f8206d8 (Merge branch 'main' of https://github.com/jinsu7500/SHOTGUN into main)
+=======
+>>>>>>> parent of f8206d8 (Merge branch 'main' of https://github.com/jinsu7500/SHOTGUN into main)
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> parent of f8206d8 (Merge branch 'main' of https://github.com/jinsu7500/SHOTGUN into main)
   serializedVersion: 6
   m_Component:
   - component: {fileID: 571516391}
@@ -1590,6 +1623,9 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
+>>>>>>> parent of f8206d8 (Merge branch 'main' of https://github.com/jinsu7500/SHOTGUN into main)
+=======
 >>>>>>> parent of f8206d8 (Merge branch 'main' of https://github.com/jinsu7500/SHOTGUN into main)
   m_GameObject: {fileID: 571516390}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
@@ -1707,7 +1743,10 @@ BoxCollider:
   serializedVersion: 2
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> parent of f8206d8 (Merge branch 'main' of https://github.com/jinsu7500/SHOTGUN into main)
 =======
 >>>>>>> parent of f8206d8 (Merge branch 'main' of https://github.com/jinsu7500/SHOTGUN into main)
   m_Size: {x: 1, y: 1, z: 1}
@@ -2161,6 +2200,9 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of f8206d8 (Merge branch 'main' of https://github.com/jinsu7500/SHOTGUN into main)
+=======
 >>>>>>> parent of f8206d8 (Merge branch 'main' of https://github.com/jinsu7500/SHOTGUN into main)
 =======
 >>>>>>> parent of f8206d8 (Merge branch 'main' of https://github.com/jinsu7500/SHOTGUN into main)
@@ -2170,6 +2212,7 @@ PrefabInstance:
     - target: {fileID: 100010, guid: fe55e5a0c1bcd72488aa4508bea6f93b, type: 3}
       propertyPath: m_Name
       value: Player
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
       objectReference: {fileID: 0}
@@ -3863,6 +3906,37 @@ PrefabInstance:
       propertyPath: m_LocalRotation.x
       value: 0
       objectReference: {fileID: 0}
+=======
+      objectReference: {fileID: 0}
+    - target: {fileID: 100010, guid: fe55e5a0c1bcd72488aa4508bea6f93b, type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 400010, guid: fe55e5a0c1bcd72488aa4508bea6f93b, type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 400010, guid: fe55e5a0c1bcd72488aa4508bea6f93b, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 86
+      objectReference: {fileID: 0}
+    - target: {fileID: 400010, guid: fe55e5a0c1bcd72488aa4508bea6f93b, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 400010, guid: fe55e5a0c1bcd72488aa4508bea6f93b, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 400010, guid: fe55e5a0c1bcd72488aa4508bea6f93b, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400010, guid: fe55e5a0c1bcd72488aa4508bea6f93b, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+>>>>>>> parent of f8206d8 (Merge branch 'main' of https://github.com/jinsu7500/SHOTGUN into main)
     - target: {fileID: 400010, guid: fe55e5a0c1bcd72488aa4508bea6f93b, type: 3}
       propertyPath: m_LocalRotation.y
       value: 0
@@ -4414,6 +4488,7 @@ Transform:
 --- !u!65 &1479355044
 BoxCollider:
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -4795,12 +4870,294 @@ Transform:
 --- !u!65 &1498481700
 >>>>>>> parent of f8206d8 (Merge branch 'main' of https://github.com/jinsu7500/SHOTGUN into main)
 BoxCollider:
+=======
+>>>>>>> parent of f8206d8 (Merge branch 'main' of https://github.com/jinsu7500/SHOTGUN into main)
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
+<<<<<<< HEAD
+  m_GameObject: {fileID: 1522426245}
+=======
+  m_GameObject: {fileID: 1498481698}
+>>>>>>> parent of f8206d8 (Merge branch 'main' of https://github.com/jinsu7500/SHOTGUN into main)
+=======
+  m_GameObject: {fileID: 1479355042}
+>>>>>>> parent of f8206d8 (Merge branch 'main' of https://github.com/jinsu7500/SHOTGUN into main)
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD
+<<<<<<< HEAD
+--- !u!23 &1522426248
+=======
+--- !u!23 &1498481701
+>>>>>>> parent of f8206d8 (Merge branch 'main' of https://github.com/jinsu7500/SHOTGUN into main)
+=======
+--- !u!23 &1479355045
+>>>>>>> parent of f8206d8 (Merge branch 'main' of https://github.com/jinsu7500/SHOTGUN into main)
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
+<<<<<<< HEAD
+  m_GameObject: {fileID: 1522426245}
+  m_Enabled: 0
+=======
+  m_GameObject: {fileID: 1498481698}
+  m_Enabled: 1
+>>>>>>> parent of f8206d8 (Merge branch 'main' of https://github.com/jinsu7500/SHOTGUN into main)
+=======
+  m_GameObject: {fileID: 1479355042}
+  m_Enabled: 1
+>>>>>>> parent of f8206d8 (Merge branch 'main' of https://github.com/jinsu7500/SHOTGUN into main)
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+<<<<<<< HEAD
+<<<<<<< HEAD
+--- !u!33 &1522426249
+=======
+--- !u!33 &1498481702
+>>>>>>> parent of f8206d8 (Merge branch 'main' of https://github.com/jinsu7500/SHOTGUN into main)
+=======
+--- !u!33 &1479355046
+>>>>>>> parent of f8206d8 (Merge branch 'main' of https://github.com/jinsu7500/SHOTGUN into main)
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
+<<<<<<< HEAD
+  m_GameObject: {fileID: 1522426245}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1530367719
+=======
+  m_GameObject: {fileID: 1498481698}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1522426245
+>>>>>>> parent of f8206d8 (Merge branch 'main' of https://github.com/jinsu7500/SHOTGUN into main)
+=======
+  m_GameObject: {fileID: 1479355042}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1484908458
+>>>>>>> parent of f8206d8 (Merge branch 'main' of https://github.com/jinsu7500/SHOTGUN into main)
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+<<<<<<< HEAD
+<<<<<<< HEAD
+  - component: {fileID: 1530367723}
+  - component: {fileID: 1530367722}
+  - component: {fileID: 1530367721}
+  - component: {fileID: 1530367720}
+  m_Layer: 0
+  m_Name: we
+=======
+  - component: {fileID: 1522426246}
+  - component: {fileID: 1522426249}
+  - component: {fileID: 1522426248}
+  - component: {fileID: 1522426247}
+  m_Layer: 0
+  m_Name: Wall (2)
+>>>>>>> parent of f8206d8 (Merge branch 'main' of https://github.com/jinsu7500/SHOTGUN into main)
+=======
+  - component: {fileID: 1484908459}
+  - component: {fileID: 1484908462}
+  - component: {fileID: 1484908461}
+  - component: {fileID: 1484908460}
+  m_Layer: 0
+  m_Name: we (1)
+>>>>>>> parent of f8206d8 (Merge branch 'main' of https://github.com/jinsu7500/SHOTGUN into main)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+<<<<<<< HEAD
+<<<<<<< HEAD
+--- !u!65 &1530367720
+BoxCollider:
+=======
+--- !u!4 &1522426246
+Transform:
+>>>>>>> parent of f8206d8 (Merge branch 'main' of https://github.com/jinsu7500/SHOTGUN into main)
+=======
+--- !u!4 &1484908459
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1484908458}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 3.5200005, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1726808293}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &1484908460
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1484908458}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &1484908461
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1484908458}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &1484908462
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1484908458}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1498481698
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1498481699}
+  - component: {fileID: 1498481702}
+  - component: {fileID: 1498481701}
+  - component: {fileID: 1498481700}
+  m_Layer: 0
+  m_Name: we (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1498481699
+Transform:
+>>>>>>> parent of f8206d8 (Merge branch 'main' of https://github.com/jinsu7500/SHOTGUN into main)
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
+<<<<<<< HEAD
+  m_GameObject: {fileID: 1530367719}
+=======
+  m_GameObject: {fileID: 1522426245}
+  m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 146.1, y: 0, z: 60.800003}
+  m_LocalScale: {x: 200.00002, y: 30, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2088848847}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!65 &1522426247
+=======
+  m_GameObject: {fileID: 1498481698}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -3.6499996, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1056781677}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &1498481700
+>>>>>>> parent of f8206d8 (Merge branch 'main' of https://github.com/jinsu7500/SHOTGUN into main)
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
   m_GameObject: {fileID: 1522426245}
+>>>>>>> parent of f8206d8 (Merge branch 'main' of https://github.com/jinsu7500/SHOTGUN into main)
 =======
   m_GameObject: {fileID: 1498481698}
 >>>>>>> parent of f8206d8 (Merge branch 'main' of https://github.com/jinsu7500/SHOTGUN into main)
@@ -4811,6 +5168,10 @@ BoxCollider:
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
+--- !u!23 &1530367721
+MeshRenderer:
+=======
 --- !u!23 &1522426248
 =======
 --- !u!23 &1498481701
@@ -4909,6 +5270,7 @@ GameObject:
 <<<<<<< HEAD
 --- !u!65 &1530367720
 BoxCollider:
+>>>>>>> parent of f8206d8 (Merge branch 'main' of https://github.com/jinsu7500/SHOTGUN into main)
 =======
 --- !u!4 &1522426246
 Transform:
@@ -4919,6 +5281,9 @@ Transform:
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
   m_GameObject: {fileID: 1530367719}
+<<<<<<< HEAD
+  m_Enabled: 1
+=======
 =======
   m_GameObject: {fileID: 1522426245}
   m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
@@ -5024,6 +5389,7 @@ BoxCollider:
   m_GameObject: {fileID: 1530367719}
 <<<<<<< HEAD
   m_Enabled: 1
+>>>>>>> parent of f8206d8 (Merge branch 'main' of https://github.com/jinsu7500/SHOTGUN into main)
 =======
   m_Material: {fileID: 0}
   m_IsTrigger: 0
@@ -5227,6 +5593,9 @@ MeshFilter:
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &1980654639
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of f8206d8 (Merge branch 'main' of https://github.com/jinsu7500/SHOTGUN into main)
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -5322,6 +5691,7 @@ MeshFilter:
   m_GameObject: {fileID: 1980654639}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &2006033802
+<<<<<<< HEAD
 =======
 >>>>>>> parent of f8206d8 (Merge branch 'main' of https://github.com/jinsu7500/SHOTGUN into main)
 GameObject:
@@ -5501,6 +5871,8 @@ Transform:
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &2006033802
 >>>>>>> parent of f8206d8 (Merge branch 'main' of https://github.com/jinsu7500/SHOTGUN into main)
+=======
+>>>>>>> parent of f8206d8 (Merge branch 'main' of https://github.com/jinsu7500/SHOTGUN into main)
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -5509,9 +5881,18 @@ GameObject:
   serializedVersion: 6
   m_Component:
 <<<<<<< HEAD
+<<<<<<< HEAD
   - component: {fileID: 2051210568}
   m_Layer: 0
   m_Name: GameObject (3)
+=======
+  - component: {fileID: 2006033803}
+  - component: {fileID: 2006033806}
+  - component: {fileID: 2006033805}
+  - component: {fileID: 2006033804}
+  m_Layer: 0
+  m_Name: we (4)
+>>>>>>> parent of f8206d8 (Merge branch 'main' of https://github.com/jinsu7500/SHOTGUN into main)
 =======
   - component: {fileID: 2006033803}
   - component: {fileID: 2006033806}
@@ -5526,7 +5907,11 @@ GameObject:
   m_StaticEditorFlags: 0
   m_IsActive: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!4 &2051210568
+=======
+--- !u!4 &2006033803
+>>>>>>> parent of f8206d8 (Merge branch 'main' of https://github.com/jinsu7500/SHOTGUN into main)
 =======
 --- !u!4 &2006033803
 >>>>>>> parent of f8206d8 (Merge branch 'main' of https://github.com/jinsu7500/SHOTGUN into main)
@@ -5535,6 +5920,7 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 --- !u!1 &2054931489
@@ -5558,6 +5944,8 @@ GameObject:
   m_IsActive: 1
 --- !u!65 &2054931490
 =======
+=======
+>>>>>>> parent of f8206d8 (Merge branch 'main' of https://github.com/jinsu7500/SHOTGUN into main)
   m_GameObject: {fileID: 2006033802}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
@@ -5567,6 +5955,9 @@ GameObject:
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &2006033804
+<<<<<<< HEAD
+>>>>>>> parent of f8206d8 (Merge branch 'main' of https://github.com/jinsu7500/SHOTGUN into main)
+=======
 >>>>>>> parent of f8206d8 (Merge branch 'main' of https://github.com/jinsu7500/SHOTGUN into main)
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5574,7 +5965,11 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_GameObject: {fileID: 2054931489}
+=======
+  m_GameObject: {fileID: 2006033802}
+>>>>>>> parent of f8206d8 (Merge branch 'main' of https://github.com/jinsu7500/SHOTGUN into main)
 =======
   m_GameObject: {fileID: 2006033802}
 >>>>>>> parent of f8206d8 (Merge branch 'main' of https://github.com/jinsu7500/SHOTGUN into main)
@@ -5585,7 +5980,11 @@ BoxCollider:
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!23 &2054931491
+=======
+--- !u!23 &2006033805
+>>>>>>> parent of f8206d8 (Merge branch 'main' of https://github.com/jinsu7500/SHOTGUN into main)
 =======
 --- !u!23 &2006033805
 >>>>>>> parent of f8206d8 (Merge branch 'main' of https://github.com/jinsu7500/SHOTGUN into main)
@@ -5595,7 +5994,11 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_GameObject: {fileID: 2054931489}
+=======
+  m_GameObject: {fileID: 2006033802}
+>>>>>>> parent of f8206d8 (Merge branch 'main' of https://github.com/jinsu7500/SHOTGUN into main)
 =======
   m_GameObject: {fileID: 2006033802}
 >>>>>>> parent of f8206d8 (Merge branch 'main' of https://github.com/jinsu7500/SHOTGUN into main)
@@ -5634,7 +6037,11 @@ MeshRenderer:
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!33 &2054931492
+=======
+--- !u!33 &2006033806
+>>>>>>> parent of f8206d8 (Merge branch 'main' of https://github.com/jinsu7500/SHOTGUN into main)
 =======
 --- !u!33 &2006033806
 >>>>>>> parent of f8206d8 (Merge branch 'main' of https://github.com/jinsu7500/SHOTGUN into main)
@@ -5644,10 +6051,13 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_GameObject: {fileID: 2054931489}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!4 &2054931493
 =======
+=======
+>>>>>>> parent of f8206d8 (Merge branch 'main' of https://github.com/jinsu7500/SHOTGUN into main)
   m_GameObject: {fileID: 2006033802}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &2041505628
@@ -5667,12 +6077,16 @@ GameObject:
   m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &2041505629
+<<<<<<< HEAD
+>>>>>>> parent of f8206d8 (Merge branch 'main' of https://github.com/jinsu7500/SHOTGUN into main)
+=======
 >>>>>>> parent of f8206d8 (Merge branch 'main' of https://github.com/jinsu7500/SHOTGUN into main)
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD
   m_GameObject: {fileID: 2054931489}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
@@ -5683,6 +6097,8 @@ Transform:
   m_RootOrder: 8
 =======
 =======
+=======
+>>>>>>> parent of f8206d8 (Merge branch 'main' of https://github.com/jinsu7500/SHOTGUN into main)
   m_GameObject: {fileID: 2041505628}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 31.39, y: 12.5, z: 70.21}
@@ -5718,6 +6134,9 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
+>>>>>>> parent of f8206d8 (Merge branch 'main' of https://github.com/jinsu7500/SHOTGUN into main)
+=======
 >>>>>>> parent of f8206d8 (Merge branch 'main' of https://github.com/jinsu7500/SHOTGUN into main)
   m_GameObject: {fileID: 2051210567}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
@@ -5732,6 +6151,9 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 9
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of f8206d8 (Merge branch 'main' of https://github.com/jinsu7500/SHOTGUN into main)
+=======
 >>>>>>> parent of f8206d8 (Merge branch 'main' of https://github.com/jinsu7500/SHOTGUN into main)
 =======
 >>>>>>> parent of f8206d8 (Merge branch 'main' of https://github.com/jinsu7500/SHOTGUN into main)
