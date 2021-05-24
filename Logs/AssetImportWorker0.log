@@ -74,3 +74,23 @@ Received Import Request.
 Start importing Assets/Scenes/Round3.unity using Guid(b13fbadf125751548948e0f60bdda93e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cffb4c7366ed2eb416ed1976cd16913') in 0.016828 seconds
   Import took 0.019613 seconds .
 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004729 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.344 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1134 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 72.8 MB.
+System memory in use after: 72.9 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1620.
+Total: 1.917500 ms (FindLiveObjects: 0.128700 ms CreateObjectMapping: 0.034400 ms MarkObjects: 1.736500 ms  DeleteObjects: 0.016700 ms)
+
