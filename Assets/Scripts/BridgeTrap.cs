@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class BridgeDown : MonoBehaviour
+public class BridgeTrap : MonoBehaviour
 {
     public GameObject Bridge; // 오브젝트
     private Vector3 init_pos; // 처음 위치값
