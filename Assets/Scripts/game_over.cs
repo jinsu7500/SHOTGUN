@@ -11,7 +11,7 @@ public class game_over : MonoBehaviour
     public Animator animator;
 
     private void OnTriggerEnter(Collider col)
-    {
+    {        
         if (col.tag == "Player")
         {
             DieMessage.SetActive(true);             
@@ -22,6 +22,5 @@ public class game_over : MonoBehaviour
 
         }
     }
-
 
 }

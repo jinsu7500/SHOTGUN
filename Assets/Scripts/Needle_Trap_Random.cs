@@ -27,7 +27,7 @@ public class Needle_Trap_Random : MonoBehaviour
     void PlayAni()
     {
 
-        Debug.Log("애니메이션 재생");
+        //Debug.Log("애니메이션 재생");
         //ani.Play("Anim_TrapNeddle_Play");
         if (trapTrigger)
         {
