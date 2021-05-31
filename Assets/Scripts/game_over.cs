@@ -27,4 +27,13 @@ public class game_over : MonoBehaviour
         }
     }
 
+    public void GameOver() // ÇÁ¸®ÆÕ¿ë
+    {
+        DieMessage.SetActive(true);
+        Camera.GetComponent<ThirdPersonOrbitCamBasic>().enabled = false;
+        Player.GetComponent<MoveBehaviour>().enabled = false;
+        animator.Play("Locomotion", -1, 0);
+        animator.Play("Falling Back Death", -1, 0);
+    }
+
 }

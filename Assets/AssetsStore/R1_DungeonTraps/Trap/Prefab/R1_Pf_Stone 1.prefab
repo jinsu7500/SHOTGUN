@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 3074091937697376545}
   - component: {fileID: 4964396541326005337}
   - component: {fileID: 213844133119668851}
+  - component: {fileID: 3810095471852406257}
   m_Layer: 0
   m_Name: R1_Pf_Stone 1
   m_TagString: Untagged
@@ -110,7 +111,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bd4932d16c1a8ac49bbe6114230a0b12, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gameOverSystem: {fileID: 0}
 --- !u!54 &213844133119668851
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -127,3 +127,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &3810095471852406257
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8130375166829747490}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07c4ad680705bca4b934f387c5e2e360, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  DieMessage: {fileID: 0}
+  Player: {fileID: 0}
+  Camera: {fileID: 0}
+  animator: {fileID: 0}
