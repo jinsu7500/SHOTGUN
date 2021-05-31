@@ -9,7 +9,8 @@ public class btn_response : MonoBehaviour
     public GameObject DieMessage;
     public Animator animator;
     public GameObject Camera;
-    public Text count ;
+    public GameObject timerCanvas;
+    public Text DeathCount ;
     
 
 
@@ -20,9 +21,9 @@ public class btn_response : MonoBehaviour
         DieMessage.SetActive(false);
         Camera.GetComponent<ThirdPersonOrbitCamBasic>().enabled = true;
         player.GetComponent<MoveBehaviour>().enabled = true;
-        count.GetComponent<Text>().text = (int.Parse(count.GetComponent<Text>().text)+1).ToString();
-        timer ti = GameObject.Find("Canvas1").GetComponent<timer>();
-        ti.TimerOn = true;
+        DeathCount.GetComponent<Text>().text = (int.Parse(DeathCount.GetComponent<Text>().text)+1).ToString();
+        timer ti = timerCanvas.GetComponent<timer>();
+        ti.TimerOn = true;       
 
     }
 
