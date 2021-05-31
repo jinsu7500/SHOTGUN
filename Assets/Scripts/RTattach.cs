@@ -5,12 +5,12 @@ using UnityEngine;
 public class RTattach : MonoBehaviour
 {
     // Start is called before the first frame update
-    public Transform rtTransform;
     public Transform pTransform;
     public float rotSpeed = 3f;
     public bool trigger;
     private bool trigger1;
-    private void OnCollisionEnter(Collision collision)
+
+    private void OnTriggerEnter(Collider other)
     {
         trigger1 = true;
     }
@@ -21,7 +21,8 @@ public class RTattach : MonoBehaviour
         if(trigger1 && trigger == false)
             pTransform.position = new Vector3(pTransform.position.x, pTransform.position.y, pTransform.position.z - rotSpeed*Time.deltaTime);
     }
-    private void OnCollisionExit(Collision collision)
+
+    private void OnTriggerExit(Collider other)
     {
         trigger1 = false;
     }
