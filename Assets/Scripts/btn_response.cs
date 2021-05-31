@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class btn_response : MonoBehaviour
 {
@@ -8,7 +9,8 @@ public class btn_response : MonoBehaviour
     public GameObject DieMessage;
     public Animator animator;
     public GameObject Camera;
-
+    public Text count ;
+    
 
 
     public void response_click()
@@ -18,5 +20,10 @@ public class btn_response : MonoBehaviour
         DieMessage.SetActive(false);
         Camera.GetComponent<ThirdPersonOrbitCamBasic>().enabled = true;
         player.GetComponent<MoveBehaviour>().enabled = true;
+        count.GetComponent<Text>().text = (int.Parse(count.GetComponent<Text>().text)+1).ToString();
+        timer ti = GameObject.Find("Canvas1").GetComponent<timer>();
+        ti.TimerOn = true;
+
     }
+
 }

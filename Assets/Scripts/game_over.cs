@@ -10,15 +10,19 @@ public class game_over : MonoBehaviour
     public GameObject Camera;
     public Animator animator;
 
+
     private void OnTriggerEnter(Collider col)
     {        
         if (col.tag == "Player")
         {
-            DieMessage.SetActive(true);             
+            DieMessage.SetActive(true);
+            timer ti = GameObject.Find("Canvas1").GetComponent<timer>();
+            ti.TimerOn = false;
             Camera.GetComponent<ThirdPersonOrbitCamBasic>().enabled = false;
             Player.GetComponent<MoveBehaviour>().enabled = false;
             animator.Play("Locomotion", -1, 0);
             animator.Play("Falling Back Death", -1, 0);
+
 
         }
     }
