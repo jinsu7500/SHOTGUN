@@ -1,0 +1,1159 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.8f1 (507919d4fff5) revision 5273881'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 19041.985; Version 2004; 64bit' Language: 'ko' Physical Memory: 24515 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.8f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/Git/SHOTGUN/SHOTGUN
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+14259
+Successfully changed project path to: D:/Git/SHOTGUN/SHOTGUN
+D:/Git/SHOTGUN/SHOTGUN
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 29.22 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.8f1 (507919d4fff5)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.8f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Git/SHOTGUN/SHOTGUN/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1660 Ti (ID=0x2182)
+    Vendor:   
+    VRAM:     5991 MB
+    Driver:   27.21.14.6172
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.8f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.8f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.8f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56064
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.8f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004340 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 27.81 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.231 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.001050 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.816 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1180 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 109.3 MB.
+System memory in use after: 109.4 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 1667.
+Total: 1.779500 ms (FindLiveObjects: 0.123900 ms CreateObjectMapping: 0.030500 ms MarkObjects: 1.354900 ms  DeleteObjects: 0.269500 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/AssetsStore/R2_Azerilo
+  artifactKey: Guid(d7a0650aa7f64fc40b8e6d2659ab7223) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/R2_Azerilo using Guid(d7a0650aa7f64fc40b8e6d2659ab7223) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a31b025d62c9a419f70698c71382ef94') in 0.004546 seconds
+  Import took 0.006411 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000283 seconds.
+  path: Assets/AssetsStore/R2_Bar Chair
+  artifactKey: Guid(1756311ce0d8b9f41aee1e595c158daa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/R2_Bar Chair using Guid(1756311ce0d8b9f41aee1e595c158daa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15eb3420dd4e588b8aae1d776f2d6c1e') in 0.002731 seconds
+  Import took 0.004438 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 56.796121 seconds.
+  path: Assets/AssetsStore/R1_DungeonTraps/Trap/Prefab/R1_Pf_Stone 1.prefab
+  artifactKey: Guid(9153caa9ed12d9b4aac024f9b27206b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsStore/R1_DungeonTraps/Trap/Prefab/R1_Pf_Stone 1.prefab using Guid(9153caa9ed12d9b4aac024f9b27206b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18eb7bf87af99bba2bb1570a346ea7c7') in 0.121591 seconds
+  Import took 0.138888 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001073 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.31 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.939 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1158 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 110.8 MB.
+System memory in use after: 110.9 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1677.
+Total: 1.314500 ms (FindLiveObjects: 0.120700 ms CreateObjectMapping: 0.028400 ms MarkObjects: 1.153300 ms  DeleteObjects: 0.011200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 2263.033057 seconds.
+  path: Assets/Models/BasicBanditTextures
+  artifactKey: Guid(e952ec789a5b2e844a78f41d4279e8fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/BasicBanditTextures using Guid(e952ec789a5b2e844a78f41d4279e8fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9192c8d512a96eb765c375bee29c69fe') in 0.006552 seconds
+  Import took 0.009111 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000841 seconds.
+  path: Assets/Models/BasicBanditTextures
+  artifactKey: Guid(e952ec789a5b2e844a78f41d4279e8fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/BasicBanditTextures using Guid(e952ec789a5b2e844a78f41d4279e8fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9192c8d512a96eb765c375bee29c69fe') in 0.002792 seconds
+  Import took 0.005597 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.117401 seconds.
+  path: Assets/Animation/Locomotion/jog_fwd.anim
+  artifactKey: Guid(e5bc3f026f85905469c9003b0efaddee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/Locomotion/jog_fwd.anim using Guid(e5bc3f026f85905469c9003b0efaddee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b261297749564d2df411e47003f6a0e') in 0.048186 seconds
+  Import took 0.050145 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.817796 seconds.
+  path: Assets/Animation/Locomotion/run_fwd.anim
+  artifactKey: Guid(fe763b5e709308f4085e998069974f5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/Locomotion/run_fwd.anim using Guid(fe763b5e709308f4085e998069974f5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e6541670f95a9e39cf48dc2e05f5baf') in 0.014868 seconds
+  Import took 0.017178 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.209474 seconds.
+  path: Assets/Animation/Locomotion/sprint_fwd.anim
+  artifactKey: Guid(b283eb77c9cc3ff4793335e8c9cd0940) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/Locomotion/sprint_fwd.anim using Guid(b283eb77c9cc3ff4793335e8c9cd0940) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b389c7411bc74a52e862dd18053943c0') in 0.024588 seconds
+  Import took 0.026564 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.133740 seconds.
+  path: Assets/Animation/Locomotion/strafe.anim
+  artifactKey: Guid(c2f405b6c56b4b441b2976c935d21e70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/Locomotion/strafe.anim using Guid(c2f405b6c56b4b441b2976c935d21e70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d2325fa9ab6ef1de8944ba1643700af') in 0.010167 seconds
+  Import took 0.012179 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.146504 seconds.
+  path: Assets/Animation/Locomotion/strafe_45.anim
+  artifactKey: Guid(87d1452aef245c14abb19ec855de2bc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/Locomotion/strafe_45.anim using Guid(87d1452aef245c14abb19ec855de2bc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8b9ff2e0b95364e2fb837b393e7bdab') in 0.009472 seconds
+  Import took 0.011552 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.167737 seconds.
+  path: Assets/Animation/Locomotion/walk_fwd.anim
+  artifactKey: Guid(ebb08566d36984f458cd0a7adfc9f953) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/Locomotion/walk_fwd.anim using Guid(ebb08566d36984f458cd0a7adfc9f953) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51e5265ea58c6d41838027215c6dc70f') in 0.019987 seconds
+  Import took 0.023173 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 101.281085 seconds.
+  path: Assets/Animation/ebrass/Basic_Bandit@Header Soccerball.fbx
+  artifactKey: Guid(3fcb81db4ea0b1d4fbb572a7c1edd6dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/ebrass/Basic_Bandit@Header Soccerball.fbx using Guid(3fcb81db4ea0b1d4fbb572a7c1edd6dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '633d38b148dea8192472ca4caf9a0731') in 0.172494 seconds
+  Import took 0.190122 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 33.523682 seconds.
+  path: Assets/Animators/CharacterController.controller
+  artifactKey: Guid(1ac2a1891f6a2814dbcb83cbd24d5ee1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animators/CharacterController.controller using Guid(1ac2a1891f6a2814dbcb83cbd24d5ee1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8d3e4dea2be806bbbe982162be73a12') in 0.142522 seconds
+  Import took 0.145052 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 48.814681 seconds.
+  path: Assets/Animation/die/xbot@Falling Back Death.fbx
+  artifactKey: Guid(65bbe1adbdb489c48ad1cc391cb21f0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/die/xbot@Falling Back Death.fbx using Guid(65bbe1adbdb489c48ad1cc391cb21f0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7217d0b521141472ce9a3992cbc1fd8d') in 0.007295 seconds
+  Import took 0.009985 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001344 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.30 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.774 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1158 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 124.8 MB.
+System memory in use after: 124.9 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1718.
+Total: 1.344100 ms (FindLiveObjects: 0.123600 ms CreateObjectMapping: 0.032700 ms MarkObjects: 1.175200 ms  DeleteObjects: 0.011700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001046 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.949 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.31 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1158 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 124.8 MB.
+System memory in use after: 124.9 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1721.
+Total: 1.323500 ms (FindLiveObjects: 0.129600 ms CreateObjectMapping: 0.031100 ms MarkObjects: 1.149000 ms  DeleteObjects: 0.012700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 991.335154 seconds.
+  path: Assets/Animation/Anim_Needle_Trap_Idle.anim
+  artifactKey: Guid(ca477849494fb9d4d872c67494748ac9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/Anim_Needle_Trap_Idle.anim using Guid(ca477849494fb9d4d872c67494748ac9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22b38963b8b25dbc251a34d728f2cbc2') in 0.070063 seconds
+  Import took 0.088568 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.026474 seconds.
+  path: Assets/Animation/ebrass
+  artifactKey: Guid(548937f614b22434db64f7240017d1b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/ebrass using Guid(548937f614b22434db64f7240017d1b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08cfecf8d8949fdca3a496ff4cded09f') in 0.003969 seconds
+  Import took 0.005963 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.793603 seconds.
+  path: Assets/Animation/ebrass/Basic_Bandit@Header Soccerball.fbx
+  artifactKey: Guid(3fcb81db4ea0b1d4fbb572a7c1edd6dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/ebrass/Basic_Bandit@Header Soccerball.fbx using Guid(3fcb81db4ea0b1d4fbb572a7c1edd6dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd86bae69a44244b72b4c2e5971fd2a6') in 0.108093 seconds
+  Import took 0.110397 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001539 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.741 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1158 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 124.8 MB.
+System memory in use after: 124.9 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1725.
+Total: 1.592300 ms (FindLiveObjects: 0.115300 ms CreateObjectMapping: 0.028300 ms MarkObjects: 1.434800 ms  DeleteObjects: 0.012800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 263.400377 seconds.
+  path: Assets/Animation/die
+  artifactKey: Guid(888d70614d6266847acbbe1c227568e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/die using Guid(888d70614d6266847acbbe1c227568e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10658658ced7c753ad56bf35124cc671') in 0.006415 seconds
+  Import took 0.008495 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000610 seconds.
+  path: Assets/Animation/die
+  artifactKey: Guid(888d70614d6266847acbbe1c227568e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/die using Guid(888d70614d6266847acbbe1c227568e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10658658ced7c753ad56bf35124cc671') in 0.002909 seconds
+  Import took 0.004933 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001155 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.835 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.31 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1159 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 124.9 MB.
+System memory in use after: 125.0 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1729.
+Total: 1.465700 ms (FindLiveObjects: 0.136700 ms CreateObjectMapping: 0.032900 ms MarkObjects: 1.282600 ms  DeleteObjects: 0.012600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000823 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.753 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1159 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 124.9 MB.
+System memory in use after: 125.0 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1732.
+Total: 1.915800 ms (FindLiveObjects: 0.125800 ms CreateObjectMapping: 0.052500 ms MarkObjects: 1.724700 ms  DeleteObjects: 0.011900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000949 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.802 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.31 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1159 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 124.9 MB.
+System memory in use after: 125.0 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1735.
+Total: 1.473400 ms (FindLiveObjects: 0.131800 ms CreateObjectMapping: 0.034300 ms MarkObjects: 1.295100 ms  DeleteObjects: 0.011400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000914 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.30 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.835 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.39 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1159 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 124.9 MB.
+System memory in use after: 125.0 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1738.
+Total: 3.395800 ms (FindLiveObjects: 0.237900 ms CreateObjectMapping: 0.042100 ms MarkObjects: 3.057000 ms  DeleteObjects: 0.057500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1981.757789 seconds.
+  path: Assets/FX_Kandol_Pack
+  artifactKey: Guid(edc5501e29376114cb7a7674477bea38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FX_Kandol_Pack using Guid(edc5501e29376114cb7a7674477bea38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e04db2e4fefad27be9005a620b0fc17') in 0.006355 seconds
+  Import took 0.008820 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001851 seconds.
+  path: Assets/FX_Kandol_Pack
+  artifactKey: Guid(edc5501e29376114cb7a7674477bea38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FX_Kandol_Pack using Guid(edc5501e29376114cb7a7674477bea38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e04db2e4fefad27be9005a620b0fc17') in 0.003057 seconds
+  Import took 0.005446 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.731223 seconds.
+  path: Assets/FX_Kandol_Pack/FX_effect_sprite_image01_02
+  artifactKey: Guid(1ca45fe75b860fb43b0d077ff448cc47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FX_Kandol_Pack/FX_effect_sprite_image01_02 using Guid(1ca45fe75b860fb43b0d077ff448cc47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '483a8e97531c80d2f9c6f49bbf7240bf') in 0.004629 seconds
+  Import took 0.007240 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.453618 seconds.
+  path: Assets/FX_Kandol_Pack/FX_effect_sprite_image01_02/FX_magic circle_effects_free
+  artifactKey: Guid(4ed7f957c74a41b48b54c63bc836a3e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FX_Kandol_Pack/FX_effect_sprite_image01_02/FX_magic circle_effects_free using Guid(4ed7f957c74a41b48b54c63bc836a3e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd257c5b67eea0a07077cafcebda70cdc') in 0.004848 seconds
+  Import took 0.007257 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.828231 seconds.
+  path: Assets/FX_Kandol_Pack/FX_effect_sprite_image01_02/FX_magic circle_effects_free/Prefabs
+  artifactKey: Guid(c86a13743d433cc4b9e709798937b40e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FX_Kandol_Pack/FX_effect_sprite_image01_02/FX_magic circle_effects_free/Prefabs using Guid(c86a13743d433cc4b9e709798937b40e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6fd9dfe351b79764c594bcd9093d92a') in 0.080377 seconds
+  Import took 0.082549 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.587326 seconds.
+  path: Assets/FX_Kandol_Pack/FX_effect_sprite_image01_02/FX_magic circle_effects_free/Prefabs/fx_Magiccircle_a.prefab
+  artifactKey: Guid(6549634101cfcb240a16a7c79ce24e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FX_Kandol_Pack/FX_effect_sprite_image01_02/FX_magic circle_effects_free/Prefabs/fx_Magiccircle_a.prefab using Guid(6549634101cfcb240a16a7c79ce24e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b771b2890509eba170eced3f9d6de7c8') in 0.148843 seconds
+  Import took 0.151080 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/FX_Kandol_Pack/FX_effect_sprite_image01_02/FX_magic circle_effects_free/Textures/fx_Magiccircle/Materials/fx_Magiccircle_a.mat
+  artifactKey: Guid(d0660e0a17c4d3f4e88c02d1bee28083) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FX_Kandol_Pack/FX_effect_sprite_image01_02/FX_magic circle_effects_free/Textures/fx_Magiccircle/Materials/fx_Magiccircle_a.mat using Guid(d0660e0a17c4d3f4e88c02d1bee28083) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29913e7633c1072ca124113c1b333b3f') in 0.352541 seconds
+  Import took 0.354722 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.121862 seconds.
+  path: Assets/FX_Kandol_Pack/FX_effect_sprite_image01_02/FX_magic circle_effects_free/Prefabs/fx_Magiccircle_b.prefab
+  artifactKey: Guid(e1c05106deb724f49b2f8be41ec91fba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FX_Kandol_Pack/FX_effect_sprite_image01_02/FX_magic circle_effects_free/Prefabs/fx_Magiccircle_b.prefab using Guid(e1c05106deb724f49b2f8be41ec91fba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8275514d7b90c2e48d8a305060471d6a') in 0.006339 seconds
+  Import took 0.008566 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001451 seconds.
+  path: Assets/FX_Kandol_Pack/FX_effect_sprite_image01_02/FX_magic circle_effects_free/Prefabs/fx_Magiccircle_b.prefab
+  artifactKey: Guid(e1c05106deb724f49b2f8be41ec91fba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FX_Kandol_Pack/FX_effect_sprite_image01_02/FX_magic circle_effects_free/Prefabs/fx_Magiccircle_b.prefab using Guid(e1c05106deb724f49b2f8be41ec91fba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8275514d7b90c2e48d8a305060471d6a') in 0.005671 seconds
+  Import took 0.008218 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/FX_Kandol_Pack/FX_effect_sprite_image01_02/FX_magic circle_effects_free/Textures/fx_Magiccircle/Materials/fx_Magiccircle_b.mat
+  artifactKey: Guid(3e6fbbb5259a7434b8a72e51a2284b42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FX_Kandol_Pack/FX_effect_sprite_image01_02/FX_magic circle_effects_free/Textures/fx_Magiccircle/Materials/fx_Magiccircle_b.mat using Guid(3e6fbbb5259a7434b8a72e51a2284b42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84541867240ba269e7e75d2095758e31') in 0.013463 seconds
+  Import took 0.016167 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.069857 seconds.
+  path: Assets/FX_Kandol_Pack/FX_effect_sprite_image01_02/FX_magic circle_effects_free/Prefabs/fx_Magiccircle_c.prefab
+  artifactKey: Guid(b4291c9e422eb5540a956fbe7c339a64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FX_Kandol_Pack/FX_effect_sprite_image01_02/FX_magic circle_effects_free/Prefabs/fx_Magiccircle_c.prefab using Guid(b4291c9e422eb5540a956fbe7c339a64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e74d3c0e712165463ca02166a6883e99') in 0.005360 seconds
+  Import took 0.007543 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004131 seconds.
+  path: Assets/FX_Kandol_Pack/FX_effect_sprite_image01_02/FX_magic circle_effects_free/Textures/fx_Magiccircle/Materials/fx_Magiccircle_c.mat
+  artifactKey: Guid(243e02ef9af9fc447af061196ff8b232) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FX_Kandol_Pack/FX_effect_sprite_image01_02/FX_magic circle_effects_free/Textures/fx_Magiccircle/Materials/fx_Magiccircle_c.mat using Guid(243e02ef9af9fc447af061196ff8b232) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd740ff0ee6f720ee8a9ba9a64778961') in 0.009842 seconds
+  Import took 0.012476 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.561176 seconds.
+  path: Assets/FX_Kandol_Pack/FX_effect_sprite_image01_02/FX_magic circle_effects_free/Prefabs/fx_Magiccircle_d.prefab
+  artifactKey: Guid(944e386f97994f74990dc2e5beab8b33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FX_Kandol_Pack/FX_effect_sprite_image01_02/FX_magic circle_effects_free/Prefabs/fx_Magiccircle_d.prefab using Guid(944e386f97994f74990dc2e5beab8b33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fa99d1d4fb7c0843bbe1b9c84895e0b') in 0.005270 seconds
+  Import took 0.007587 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003958 seconds.
+  path: Assets/FX_Kandol_Pack/FX_effect_sprite_image01_02/FX_magic circle_effects_free/Textures/fx_Magiccircle/Materials/fx_Magiccircle_d.mat
+  artifactKey: Guid(a68e442f284a10b49b4b6ebca9fa70d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FX_Kandol_Pack/FX_effect_sprite_image01_02/FX_magic circle_effects_free/Textures/fx_Magiccircle/Materials/fx_Magiccircle_d.mat using Guid(a68e442f284a10b49b4b6ebca9fa70d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79ec53e9b3386ef7c38b335ace069e71') in 0.009690 seconds
+  Import took 0.011930 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.546993 seconds.
+  path: Assets/FX_Kandol_Pack/FX_effect_sprite_image01_02/FX_magic circle_effects_free/Prefabs/fx_Magiccircle_e.prefab
+  artifactKey: Guid(4a151cc9d35f1e342baddb1ec7090977) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FX_Kandol_Pack/FX_effect_sprite_image01_02/FX_magic circle_effects_free/Prefabs/fx_Magiccircle_e.prefab using Guid(4a151cc9d35f1e342baddb1ec7090977) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b73b8fd088b0f0784fc444396bdc43fe') in 0.005458 seconds
+  Import took 0.007912 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003707 seconds.
+  path: Assets/FX_Kandol_Pack/FX_effect_sprite_image01_02/FX_magic circle_effects_free/Textures/fx_Magiccircle/Materials/fx_Magiccircle_e.mat
+  artifactKey: Guid(b9f5faee6ac111d4aba8d4cb3de2c4bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FX_Kandol_Pack/FX_effect_sprite_image01_02/FX_magic circle_effects_free/Textures/fx_Magiccircle/Materials/fx_Magiccircle_e.mat using Guid(b9f5faee6ac111d4aba8d4cb3de2c4bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3676d59e9780d3b6e7d8961a8b72e4b') in 0.010776 seconds
+  Import took 0.012889 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.925918 seconds.
+  path: Assets/FX_Kandol_Pack/FX_effect_sprite_image01_02/FX_magic circle_effects_free/Prefabs/fx_Magiccircle_f.prefab
+  artifactKey: Guid(0f9e13a9d43b4ff49ba12cec88b5bbc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FX_Kandol_Pack/FX_effect_sprite_image01_02/FX_magic circle_effects_free/Prefabs/fx_Magiccircle_f.prefab using Guid(0f9e13a9d43b4ff49ba12cec88b5bbc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01c914d106c24208d07f24a434bf514d') in 0.008107 seconds
+  Import took 0.010909 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002195 seconds.
+  path: Assets/FX_Kandol_Pack/FX_effect_sprite_image01_02/FX_magic circle_effects_free/Textures/fx_Magiccircle/Materials/fx_Magiccircle_f.mat
+  artifactKey: Guid(43447390ce4d1d645b645c5fafe21a41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FX_Kandol_Pack/FX_effect_sprite_image01_02/FX_magic circle_effects_free/Textures/fx_Magiccircle/Materials/fx_Magiccircle_f.mat using Guid(43447390ce4d1d645b645c5fafe21a41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b42fb25ef29b52da06177ce247120a02') in 0.010411 seconds
+  Import took 0.012745 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.575297 seconds.
+  path: Assets/FX_Kandol_Pack/FX_effect_sprite_image01_02/FX_magic circle_effects_free/Prefabs/fx_Magiccircle_g.prefab
+  artifactKey: Guid(3acf05b7ae6e94344b7ae2589ce0cd3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FX_Kandol_Pack/FX_effect_sprite_image01_02/FX_magic circle_effects_free/Prefabs/fx_Magiccircle_g.prefab using Guid(3acf05b7ae6e94344b7ae2589ce0cd3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea6674653f55f6a92b003eba3a7b681f') in 0.006109 seconds
+  Import took 0.008541 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003179 seconds.
+  path: Assets/FX_Kandol_Pack/FX_effect_sprite_image01_02/FX_magic circle_effects_free/Textures/fx_Magiccircle/Materials/fx_Magiccircle_g.mat
+  artifactKey: Guid(76783b993c15aef41afffc2c7fcfc7c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FX_Kandol_Pack/FX_effect_sprite_image01_02/FX_magic circle_effects_free/Textures/fx_Magiccircle/Materials/fx_Magiccircle_g.mat using Guid(76783b993c15aef41afffc2c7fcfc7c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba2b24c04d72d1dba7aa60b492484057') in 0.010419 seconds
+  Import took 0.012877 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.986498 seconds.
+  path: Assets/FX_Kandol_Pack/FX_effect_sprite_image01_02/FX_magic circle_effects_free/Prefabs/fx_Magiccircle_h.prefab
+  artifactKey: Guid(c71a49439de3f8449a2e573e8706be4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FX_Kandol_Pack/FX_effect_sprite_image01_02/FX_magic circle_effects_free/Prefabs/fx_Magiccircle_h.prefab using Guid(c71a49439de3f8449a2e573e8706be4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c9d5931f0e59b00d164f4d701d8e900') in 0.005382 seconds
+  Import took 0.007563 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003976 seconds.
+  path: Assets/FX_Kandol_Pack/FX_effect_sprite_image01_02/FX_magic circle_effects_free/Textures/fx_Magiccircle/Materials/fx_Magiccircle_h.mat
+  artifactKey: Guid(588dd90f19a3b56478b3cde837884643) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FX_Kandol_Pack/FX_effect_sprite_image01_02/FX_magic circle_effects_free/Textures/fx_Magiccircle/Materials/fx_Magiccircle_h.mat using Guid(588dd90f19a3b56478b3cde837884643) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41e06203a3565d5fbd281fc1d668e99a') in 0.009388 seconds
+  Import took 0.011773 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.389809 seconds.
+  path: Assets/FX_Kandol_Pack/FX_effect_sprite_image01_02/FX_magic circle_effects_free/Prefabs/fx_Magiccircle_i.prefab
+  artifactKey: Guid(47a2489582e01814aa4543d0bfe182ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FX_Kandol_Pack/FX_effect_sprite_image01_02/FX_magic circle_effects_free/Prefabs/fx_Magiccircle_i.prefab using Guid(47a2489582e01814aa4543d0bfe182ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfd30d4581b009d664f9de9abb092824') in 0.005380 seconds
+  Import took 0.007706 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003803 seconds.
+  path: Assets/FX_Kandol_Pack/FX_effect_sprite_image01_02/FX_magic circle_effects_free/Textures/fx_Magiccircle/Materials/fx_Magiccircle_i.mat
+  artifactKey: Guid(8b10a66eef9de35448a60b39b0fad3a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FX_Kandol_Pack/FX_effect_sprite_image01_02/FX_magic circle_effects_free/Textures/fx_Magiccircle/Materials/fx_Magiccircle_i.mat using Guid(8b10a66eef9de35448a60b39b0fad3a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62afb0189439141357bebdb06b02d233') in 0.009643 seconds
+  Import took 0.011999 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.483645 seconds.
+  path: Assets/FX_Kandol_Pack/FX_effect_sprite_image01_02/FX_magic circle_effects_free/Prefabs/fx_Magiccircle_j.prefab
+  artifactKey: Guid(6de66d26c25221b43b09d8881f960faf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FX_Kandol_Pack/FX_effect_sprite_image01_02/FX_magic circle_effects_free/Prefabs/fx_Magiccircle_j.prefab using Guid(6de66d26c25221b43b09d8881f960faf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e51541696dabaf70f1c3c93eef01f9b0') in 0.005311 seconds
+  Import took 0.007583 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003834 seconds.
+  path: Assets/FX_Kandol_Pack/FX_effect_sprite_image01_02/FX_magic circle_effects_free/Textures/fx_Magiccircle/Materials/fx_Magiccircle_j.mat
+  artifactKey: Guid(cf68ab15dbcdebb4e9085054f4d55445) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FX_Kandol_Pack/FX_effect_sprite_image01_02/FX_magic circle_effects_free/Textures/fx_Magiccircle/Materials/fx_Magiccircle_j.mat using Guid(cf68ab15dbcdebb4e9085054f4d55445) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30963b33062e1d461df2cc0f266a9467') in 0.010938 seconds
+  Import took 0.013495 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.596146 seconds.
+  path: Assets/FX_Kandol_Pack/FX_effect_sprite_image01_02/FX_magic circle_effects_free/Prefabs/fx_Magiccircle_l.prefab
+  artifactKey: Guid(be7807b81da16d445978a10b5384625c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FX_Kandol_Pack/FX_effect_sprite_image01_02/FX_magic circle_effects_free/Prefabs/fx_Magiccircle_l.prefab using Guid(be7807b81da16d445978a10b5384625c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7794f69d1bc5ce1cb4685232883e581') in 0.005490 seconds
+  Import took 0.007877 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003974 seconds.
+  path: Assets/FX_Kandol_Pack/FX_effect_sprite_image01_02/FX_magic circle_effects_free/Textures/fx_Magiccircle/Materials/fx_Magiccircle_l.mat
+  artifactKey: Guid(63ad41232ad5c9746b0a38dfceb1d670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FX_Kandol_Pack/FX_effect_sprite_image01_02/FX_magic circle_effects_free/Textures/fx_Magiccircle/Materials/fx_Magiccircle_l.mat using Guid(63ad41232ad5c9746b0a38dfceb1d670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff4f1e24ea1c713178c555b6a0ec856b') in 0.010616 seconds
+  Import took 0.012876 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.552147 seconds.
+  path: Assets/FX_Kandol_Pack/FX_effect_sprite_image01_02/FX_magic circle_effects_free/Prefabs/fx_Magiccircle_m.prefab
+  artifactKey: Guid(55ddb5794ff979445affbc036f2aca7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FX_Kandol_Pack/FX_effect_sprite_image01_02/FX_magic circle_effects_free/Prefabs/fx_Magiccircle_m.prefab using Guid(55ddb5794ff979445affbc036f2aca7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5825c3035ac64ef80a026cdaaec6760f') in 0.005212 seconds
+  Import took 0.020430 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/FX_Kandol_Pack/FX_effect_sprite_image01_02/FX_magic circle_effects_free/Textures/fx_Magiccircle/Materials/fx_Magiccircle_m.mat
+  artifactKey: Guid(d994dcc02355b664f91f6763a3f5fda9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FX_Kandol_Pack/FX_effect_sprite_image01_02/FX_magic circle_effects_free/Textures/fx_Magiccircle/Materials/fx_Magiccircle_m.mat using Guid(d994dcc02355b664f91f6763a3f5fda9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe9f389d037fea52a03806fbef0c98f7') in 0.010133 seconds
+  Import took 0.012243 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000324 seconds.
+  path: Assets/FX_Kandol_Pack/FX_effect_sprite_image01_02/FX_magic circle_effects_free/Prefabs/fx_Magiccircle_m.prefab
+  artifactKey: Guid(55ddb5794ff979445affbc036f2aca7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FX_Kandol_Pack/FX_effect_sprite_image01_02/FX_magic circle_effects_free/Prefabs/fx_Magiccircle_m.prefab using Guid(55ddb5794ff979445affbc036f2aca7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5825c3035ac64ef80a026cdaaec6760f') in 0.005672 seconds
+  Import took 0.008079 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001197 seconds.
+  path: Assets/FX_Kandol_Pack/FX_effect_sprite_image01_02/FX_magic circle_effects_free/Textures/fx_Magiccircle/Materials/fx_Magiccircle_m.mat
+  artifactKey: Guid(d994dcc02355b664f91f6763a3f5fda9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FX_Kandol_Pack/FX_effect_sprite_image01_02/FX_magic circle_effects_free/Textures/fx_Magiccircle/Materials/fx_Magiccircle_m.mat using Guid(d994dcc02355b664f91f6763a3f5fda9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe9f389d037fea52a03806fbef0c98f7') in 0.010303 seconds
+  Import took 0.012593 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.991176 seconds.
+  path: Assets/FX_Kandol_Pack/FX_effect_sprite_image01_02/FX_magic circle_effects_free/Prefabs/fx_Magiccircle_o.prefab
+  artifactKey: Guid(f288941371a39be4aafd92f33205c95c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FX_Kandol_Pack/FX_effect_sprite_image01_02/FX_magic circle_effects_free/Prefabs/fx_Magiccircle_o.prefab using Guid(f288941371a39be4aafd92f33205c95c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44872c561c4fb0e8b194dbbe2b8f9332') in 0.005247 seconds
+  Import took 0.007667 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003927 seconds.
+  path: Assets/FX_Kandol_Pack/FX_effect_sprite_image01_02/FX_magic circle_effects_free/Textures/fx_Magiccircle/Materials/fx_Magiccircle_o.mat
+  artifactKey: Guid(cd7fefa18c116a0468e71c7228fdb74f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FX_Kandol_Pack/FX_effect_sprite_image01_02/FX_magic circle_effects_free/Textures/fx_Magiccircle/Materials/fx_Magiccircle_o.mat using Guid(cd7fefa18c116a0468e71c7228fdb74f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c5dce6e2c9124c38bc060ca3f32f7f2') in 0.010319 seconds
+  Import took 0.012578 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.583984 seconds.
+  path: Assets/FX_Kandol_Pack/FX_effect_sprite_image01_02/FX_magic circle_effects_free/Prefabs/fx_Magiccircle_p.prefab
+  artifactKey: Guid(88ae62ae7dacfe145a0d8a978a7212a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FX_Kandol_Pack/FX_effect_sprite_image01_02/FX_magic circle_effects_free/Prefabs/fx_Magiccircle_p.prefab using Guid(88ae62ae7dacfe145a0d8a978a7212a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aaf00d0d22a144025c1df9d7fc38eb8f') in 0.006445 seconds
+  Import took 0.009091 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002930 seconds.
+  path: Assets/FX_Kandol_Pack/FX_effect_sprite_image01_02/FX_magic circle_effects_free/Textures/fx_Magiccircle/Materials/fx_Magiccircle_p.mat
+  artifactKey: Guid(c5d094d16bc54e244ad02c2cd42076e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FX_Kandol_Pack/FX_effect_sprite_image01_02/FX_magic circle_effects_free/Textures/fx_Magiccircle/Materials/fx_Magiccircle_p.mat using Guid(c5d094d16bc54e244ad02c2cd42076e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd656b5425352bf7b7ccfe22fd6b9a472') in 0.011614 seconds
+  Import took 0.013749 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.774033 seconds.
+  path: Assets/FX_Kandol_Pack/FX_effect_sprite_image01_02/FX_magic circle_effects_free/Textures
+  artifactKey: Guid(37772a01d223c054abac731d1cbf4511) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FX_Kandol_Pack/FX_effect_sprite_image01_02/FX_magic circle_effects_free/Textures using Guid(37772a01d223c054abac731d1cbf4511) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b573227bc69bc6320c3dec8ac191dca') in 0.022802 seconds
+  Import took 0.025099 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.547972 seconds.
+  path: Assets/FX_Kandol_Pack/FX_effect_sprite_image01_02/FX_magic circle_effects_free/Textures/fx_Magiccircle
+  artifactKey: Guid(c5e0b8f61f8005f46a9a2375f58b2e76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FX_Kandol_Pack/FX_effect_sprite_image01_02/FX_magic circle_effects_free/Textures/fx_Magiccircle using Guid(c5e0b8f61f8005f46a9a2375f58b2e76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a62feac7163afafcc0f87cc81f4d8ea2') in 0.004579 seconds
+  Import took 0.006812 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.593371 seconds.
+  path: Assets/FX_Kandol_Pack/FX_effect_sprite_image01_02/FX_magic circle_effects_free/Textures/fx_Magiccircle/fx_Magiccircle_a.png
+  artifactKey: Guid(f0bf8c83046d9e546b17e2e78cb06782) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FX_Kandol_Pack/FX_effect_sprite_image01_02/FX_magic circle_effects_free/Textures/fx_Magiccircle/fx_Magiccircle_a.png using Guid(f0bf8c83046d9e546b17e2e78cb06782) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f10c86aeb33f17ef883a067865d74c80') in 0.077569 seconds
+  Import took 0.079780 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.484183 seconds.
+  path: Assets/FX_Kandol_Pack/FX_effect_sprite_image01_02/FX_magic circle_effects_free/Textures/fx_Magiccircle/fx_Magiccircle_b.png
+  artifactKey: Guid(86ef744ae4668ec4c9982ac0e1b9e798) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FX_Kandol_Pack/FX_effect_sprite_image01_02/FX_magic circle_effects_free/Textures/fx_Magiccircle/fx_Magiccircle_b.png using Guid(86ef744ae4668ec4c9982ac0e1b9e798) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd165d83ebf6e341d5d47aa8854fa9393') in 0.007370 seconds
+  Import took 0.009600 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.164778 seconds.
+  path: Assets/FX_Kandol_Pack/FX_effect_sprite_image01_02/FX_magic circle_effects_free/Textures/fx_Magiccircle/fx_Magiccircle_c.png
+  artifactKey: Guid(46002a3c788045744898b65145d96f66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FX_Kandol_Pack/FX_effect_sprite_image01_02/FX_magic circle_effects_free/Textures/fx_Magiccircle/fx_Magiccircle_c.png using Guid(46002a3c788045744898b65145d96f66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '373e9f99cf6b98411f0930a776c734f4') in 0.008453 seconds
+  Import took 0.010547 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.493297 seconds.
+  path: Assets/FX_Kandol_Pack/FX_effect_sprite_image01_02/FX_magic circle_effects_free/Textures/fx_Magiccircle/fx_Magiccircle_d.png
+  artifactKey: Guid(afd92339fba4efb4b93ddcfa5122f4dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FX_Kandol_Pack/FX_effect_sprite_image01_02/FX_magic circle_effects_free/Textures/fx_Magiccircle/fx_Magiccircle_d.png using Guid(afd92339fba4efb4b93ddcfa5122f4dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ffa6b30a020dd1d87a5245a7ba45635') in 0.008377 seconds
+  Import took 0.017975 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.016702 seconds.
+  path: Assets/FX_Kandol_Pack/FX_effect_sprite_image01_02/FX_magic circle_effects_free/Textures/fx_Magiccircle/fx_Magiccircle_e.png
+  artifactKey: Guid(f39642443835755419957ef831f9285c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FX_Kandol_Pack/FX_effect_sprite_image01_02/FX_magic circle_effects_free/Textures/fx_Magiccircle/fx_Magiccircle_e.png using Guid(f39642443835755419957ef831f9285c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '211f368e8a42af22ed5d1d12aa58ab2d') in 0.008283 seconds
+  Import took 0.010521 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.032900 seconds.
+  path: Assets/FX_Kandol_Pack/FX_effect_sprite_image01_02/FX_magic circle_effects_free/Textures/fx_Magiccircle/fx_Magiccircle_f.png
+  artifactKey: Guid(a99b8f27dc0c33c4eae10f0d03ae30b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FX_Kandol_Pack/FX_effect_sprite_image01_02/FX_magic circle_effects_free/Textures/fx_Magiccircle/fx_Magiccircle_f.png using Guid(a99b8f27dc0c33c4eae10f0d03ae30b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '006e381b11edc93e89a81b338c9edfd3') in 0.007535 seconds
+  Import took 0.009845 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.029060 seconds.
+  path: Assets/FX_Kandol_Pack/FX_effect_sprite_image01_02/FX_magic circle_effects_free/Textures/fx_Magiccircle/fx_Magiccircle_g.png
+  artifactKey: Guid(d0f30678c2421d0469566831a5123e73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FX_Kandol_Pack/FX_effect_sprite_image01_02/FX_magic circle_effects_free/Textures/fx_Magiccircle/fx_Magiccircle_g.png using Guid(d0f30678c2421d0469566831a5123e73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35b0622c863c571ed1cb8c777c499132') in 0.008325 seconds
+  Import took 0.010488 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.028165 seconds.
+  path: Assets/FX_Kandol_Pack/FX_effect_sprite_image01_02/FX_magic circle_effects_free/Textures/fx_Magiccircle/fx_Magiccircle_h.png
+  artifactKey: Guid(2bda500125ef75442b1f3a6c3573c46b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FX_Kandol_Pack/FX_effect_sprite_image01_02/FX_magic circle_effects_free/Textures/fx_Magiccircle/fx_Magiccircle_h.png using Guid(2bda500125ef75442b1f3a6c3573c46b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32bc60e14604ddf940d9dded0e5772fe') in 0.007861 seconds
+  Import took 0.010111 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.030418 seconds.
+  path: Assets/FX_Kandol_Pack/FX_effect_sprite_image01_02/FX_magic circle_effects_free/Textures/fx_Magiccircle/fx_Magiccircle_j.png
+  artifactKey: Guid(136c2f48516c4e5499801b65dce1b1b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FX_Kandol_Pack/FX_effect_sprite_image01_02/FX_magic circle_effects_free/Textures/fx_Magiccircle/fx_Magiccircle_j.png using Guid(136c2f48516c4e5499801b65dce1b1b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '312d8e1d125977343e63a9e02e1ccf86') in 0.007236 seconds
+  Import took 0.009298 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.055248 seconds.
+  path: Assets/FX_Kandol_Pack/FX_effect_sprite_image01_02/FX_magic circle_effects_free/Textures/fx_Magiccircle/fx_Magiccircle_k.png
+  artifactKey: Guid(53ab996d78a0f2f43b90a2cec87a14e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FX_Kandol_Pack/FX_effect_sprite_image01_02/FX_magic circle_effects_free/Textures/fx_Magiccircle/fx_Magiccircle_k.png using Guid(53ab996d78a0f2f43b90a2cec87a14e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dfbb9d66195e4476c47feac0f056175') in 0.007715 seconds
+  Import took 0.009906 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.022368 seconds.
+  path: Assets/FX_Kandol_Pack/FX_effect_sprite_image01_02/FX_magic circle_effects_free/Textures/fx_Magiccircle/fx_Magiccircle_l.png
+  artifactKey: Guid(b1592fe77e8a05840ab9991475fa373c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FX_Kandol_Pack/FX_effect_sprite_image01_02/FX_magic circle_effects_free/Textures/fx_Magiccircle/fx_Magiccircle_l.png using Guid(b1592fe77e8a05840ab9991475fa373c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ef1d7d8e82f85c9ec604a8eebf03fe9') in 0.007723 seconds
+  Import took 0.009801 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.028000 seconds.
+  path: Assets/FX_Kandol_Pack/FX_effect_sprite_image01_02/FX_magic circle_effects_free/Textures/fx_Magiccircle/fx_Magiccircle_m.png
+  artifactKey: Guid(bae79da2a41ad7346bc71d21593fa321) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FX_Kandol_Pack/FX_effect_sprite_image01_02/FX_magic circle_effects_free/Textures/fx_Magiccircle/fx_Magiccircle_m.png using Guid(bae79da2a41ad7346bc71d21593fa321) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02eb67e35c47e2165598ff74705ebc25') in 0.007483 seconds
+  Import took 0.009748 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.033555 seconds.
+  path: Assets/FX_Kandol_Pack/FX_effect_sprite_image01_02/FX_magic circle_effects_free/Textures/fx_Magiccircle/fx_Magiccircle_n.PNG
+  artifactKey: Guid(e0fa5b1961b0f2046bb070d01892367e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FX_Kandol_Pack/FX_effect_sprite_image01_02/FX_magic circle_effects_free/Textures/fx_Magiccircle/fx_Magiccircle_n.PNG using Guid(e0fa5b1961b0f2046bb070d01892367e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3ea6101d20b66ca036321c529c8891a') in 0.011842 seconds
+  Import took 0.014984 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.023481 seconds.
+  path: Assets/FX_Kandol_Pack/FX_effect_sprite_image01_02/FX_magic circle_effects_free/Textures/fx_Magiccircle/fx_Magiccircle_o.PNG
+  artifactKey: Guid(57778f46009836545828665417a6cb4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FX_Kandol_Pack/FX_effect_sprite_image01_02/FX_magic circle_effects_free/Textures/fx_Magiccircle/fx_Magiccircle_o.PNG using Guid(57778f46009836545828665417a6cb4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92624717b4203e4e3f3e3c57cbcd8016') in 0.007887 seconds
+  Import took 0.010002 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.067129 seconds.
+  path: Assets/FX_Kandol_Pack/FX_effect_sprite_image01_02/FX_magic circle_effects_free/Textures/fx_Magiccircle/fx_Magiccircle_p.PNG
+  artifactKey: Guid(b036abf3f368ff040857bfa944614491) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FX_Kandol_Pack/FX_effect_sprite_image01_02/FX_magic circle_effects_free/Textures/fx_Magiccircle/fx_Magiccircle_p.PNG using Guid(b036abf3f368ff040857bfa944614491) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d95b6e290c9c15d24820ace80aaf432') in 0.008042 seconds
+  Import took 0.010530 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.349800 seconds.
+  path: Assets/FX_Kandol_Pack/FX_effect_sprite_image01_02/FX_magic circle_effects_free/Textures/fx_Magiccircle/Materials
+  artifactKey: Guid(0257281a48f8767488c188bed6625c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FX_Kandol_Pack/FX_effect_sprite_image01_02/FX_magic circle_effects_free/Textures/fx_Magiccircle/Materials using Guid(0257281a48f8767488c188bed6625c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a67f891ad0e699bbb31e95e278a4413a') in 0.003903 seconds
+  Import took 0.005940 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001115 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.755 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.32 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1159 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 125.0 MB.
+System memory in use after: 125.1 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1744.
+Total: 1.591100 ms (FindLiveObjects: 0.139200 ms CreateObjectMapping: 0.035500 ms MarkObjects: 1.402600 ms  DeleteObjects: 0.012700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001032 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.31 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.822 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.31 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1159 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 125.0 MB.
+System memory in use after: 125.1 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1747.
+Total: 1.408900 ms (FindLiveObjects: 0.121300 ms CreateObjectMapping: 0.030400 ms MarkObjects: 1.246200 ms  DeleteObjects: 0.010200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001066 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.30 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.763 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.30 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1159 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 125.0 MB.
+System memory in use after: 125.1 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1750.
+Total: 1.447000 ms (FindLiveObjects: 0.145700 ms CreateObjectMapping: 0.042300 ms MarkObjects: 1.246400 ms  DeleteObjects: 0.011600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002116 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.37 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.795 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1159 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 125.0 MB.
+System memory in use after: 125.1 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1753.
+Total: 1.583900 ms (FindLiveObjects: 0.139800 ms CreateObjectMapping: 0.042800 ms MarkObjects: 1.387800 ms  DeleteObjects: 0.012300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000940 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.756 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.39 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1159 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 125.0 MB.
+System memory in use after: 125.1 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1756.
+Total: 1.621900 ms (FindLiveObjects: 0.170300 ms CreateObjectMapping: 0.039800 ms MarkObjects: 1.399000 ms  DeleteObjects: 0.011700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000994 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.756 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.39 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1159 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 125.0 MB.
+System memory in use after: 125.1 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1759.
+Total: 1.385400 ms (FindLiveObjects: 0.125200 ms CreateObjectMapping: 0.031000 ms MarkObjects: 1.217100 ms  DeleteObjects: 0.011300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1265.202120 seconds.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42d402b061de3733987d63b9cc3b64de') in 0.004885 seconds
+  Import took 0.007309 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002025 seconds.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42d402b061de3733987d63b9cc3b64de') in 0.003283 seconds
+  Import took 0.005954 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.132150 seconds.
+  path: Assets/TimeLine
+  artifactKey: Guid(3f56083874db27a4e818c1fb7b4f100f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TimeLine using Guid(3f56083874db27a4e818c1fb7b4f100f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49d68dc611cd470744c99c53a2934778') in 0.006973 seconds
+  Import took 0.010713 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.236249 seconds.
+  path: Assets/R1_finale.signal
+  artifactKey: Guid(6f1729608050f0a41ad7772d85b5d3af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/R1_finale.signal using Guid(6f1729608050f0a41ad7772d85b5d3af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75df7e2b99a635f6882a15834f6b2402') in 0.178389 seconds
+  Import took 0.180495 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.523070 seconds.
+  path: Assets/ChestFree
+  artifactKey: Guid(517451fea9c8e804ca4a8e356d9aab77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ChestFree using Guid(517451fea9c8e804ca4a8e356d9aab77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25f5bb8698d845c28c3cae6c2ca6f29e') in 0.005056 seconds
+  Import took 0.008853 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.716937 seconds.
+  path: Assets/ChestFree/Materials
+  artifactKey: Guid(293d7a0a8c42c81498410e582685cbc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ChestFree/Materials using Guid(293d7a0a8c42c81498410e582685cbc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3e0a079c0dac6f6be4a8e55ab37e03e') in 0.004152 seconds
+  Import took 0.006791 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.603620 seconds.
+  path: Assets/ChestFree/Textures
+  artifactKey: Guid(c9aa4f16df5e51f469e95bd79b96b508) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ChestFree/Textures using Guid(c9aa4f16df5e51f469e95bd79b96b508) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '180f4d6f104f300f8bc19821abc5375b') in 0.003930 seconds
+  Import took 0.006786 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.385468 seconds.
+  path: Assets/ChestFree/chest_close.prefab
+  artifactKey: Guid(ffd3e66d4df2a554fb995d41f7ffe4c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ChestFree/chest_close.prefab using Guid(ffd3e66d4df2a554fb995d41f7ffe4c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2985f963933afcec7723bc23cfeb74aa') in 0.087600 seconds
+  Import took 0.089720 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001941 seconds.
+  path: Assets/ChestFree/chest_close.prefab
+  artifactKey: Guid(ffd3e66d4df2a554fb995d41f7ffe4c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ChestFree/chest_close.prefab using Guid(ffd3e66d4df2a554fb995d41f7ffe4c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2985f963933afcec7723bc23cfeb74aa') in 0.014155 seconds
+  Import took 0.017426 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.135448 seconds.
+  path: Assets/ChestFree/ChestFreeScene.unity
+  artifactKey: Guid(5be627b8098e679478fdafa05346a88f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ChestFree/ChestFreeScene.unity using Guid(5be627b8098e679478fdafa05346a88f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c24e334519265c7e35fc2c16d1f26eb5') in 0.005189 seconds
+  Import took 0.009059 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.754536 seconds.
+  path: Assets/ChestFree/ChestFreeSceneSettings.lighting
+  artifactKey: Guid(96f0395642676fc4081995229c17829d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ChestFree/ChestFreeSceneSettings.lighting using Guid(96f0395642676fc4081995229c17829d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) LightingSettings: switching bake backend from 1 to 0.
+ -> (artifact id: '8df9b299fdf4b4ada2f1e602a8059292') in 0.008453 seconds
+  Import took 0.010703 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008627 seconds.
+  path: Assets/ChestFree/ChestFreeSceneSettings.lighting
+  artifactKey: Guid(96f0395642676fc4081995229c17829d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ChestFree/ChestFreeSceneSettings.lighting using Guid(96f0395642676fc4081995229c17829d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) LightingSettings: switching bake backend from 1 to 0.
+ -> (artifact id: '8df9b299fdf4b4ada2f1e602a8059292') in 0.004722 seconds
+  Import took 0.007358 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.336551 seconds.
+  path: Assets/ChestFree/chest_close.FBX
+  artifactKey: Guid(4b1205a7235860c479fc94aefe26ebf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ChestFree/chest_close.FBX using Guid(4b1205a7235860c479fc94aefe26ebf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'beeca84c099a49378d1a0bf4e2d14eb8') in 0.035509 seconds
+  Import took 0.037765 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.685984 seconds.
+  path: Assets/R1,3_Tresure
+  artifactKey: Guid(517451fea9c8e804ca4a8e356d9aab77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/R1,3_Tresure using Guid(517451fea9c8e804ca4a8e356d9aab77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d92e7b674026171f78bb900e212c32b') in 0.006857 seconds
+  Import took 0.011880 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.424154 seconds.
+  path: Assets/laxer Assets
+  artifactKey: Guid(fe94d71039c56d34ead5ccad5fc6c68f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/laxer Assets using Guid(fe94d71039c56d34ead5ccad5fc6c68f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87c9ad2caaf7bf86d6609fe8e6c7be43') in 0.004471 seconds
+  Import took 0.006962 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.683556 seconds.
+  path: Assets/Materials/Color
+  artifactKey: Guid(c1bdb36f3649d5a438926ad3c5f036c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Color using Guid(c1bdb36f3649d5a438926ad3c5f036c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07b8a785fe7acbefda3ff7bc0f8c57d1') in 0.005504 seconds
+  Import took 0.007946 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000924 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.926 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.31 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1159 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 125.1 MB.
+System memory in use after: 125.2 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1763.
+Total: 1.422700 ms (FindLiveObjects: 0.129700 ms CreateObjectMapping: 0.034100 ms MarkObjects: 1.247400 ms  DeleteObjects: 0.010600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000776 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.791 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.32 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1159 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 125.2 MB.
+System memory in use after: 125.3 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1766.
+Total: 1.494500 ms (FindLiveObjects: 0.129300 ms CreateObjectMapping: 0.031900 ms MarkObjects: 1.321200 ms  DeleteObjects: 0.011000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 74.193697 seconds.
+  path: Assets/R1_FinaleCutScene.cs
+  artifactKey: Guid(69380aeb51661b9458c63b3f93fc8e4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/R1_FinaleCutScene.cs using Guid(69380aeb51661b9458c63b3f93fc8e4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a976379595f998247dd5575013b4ad8') in 0.013107 seconds
+  Import took 0.016409 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.016406 seconds.
+  path: Assets/R1_FinaleCutScene.cs
+  artifactKey: Guid(69380aeb51661b9458c63b3f93fc8e4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/R1_FinaleCutScene.cs using Guid(69380aeb51661b9458c63b3f93fc8e4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a976379595f998247dd5575013b4ad8') in 0.004390 seconds
+  Import took 0.007569 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000856 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.845 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.33 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1159 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 125.2 MB.
+System memory in use after: 125.3 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1769.
+Total: 1.435700 ms (FindLiveObjects: 0.141200 ms CreateObjectMapping: 0.038600 ms MarkObjects: 1.243500 ms  DeleteObjects: 0.011500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000843 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.31 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.770 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.44 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1159 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 125.2 MB.
+System memory in use after: 125.3 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1772.
+Total: 1.702200 ms (FindLiveObjects: 0.161600 ms CreateObjectMapping: 0.041700 ms MarkObjects: 1.484100 ms  DeleteObjects: 0.013500 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
