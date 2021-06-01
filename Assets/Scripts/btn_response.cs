@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class btn_response : MonoBehaviour
 {
@@ -11,11 +12,17 @@ public class btn_response : MonoBehaviour
     public GameObject Camera;
     public GameObject timerCanvas;
     public Text DeathCount ;
-    
+
 
 
     public void response_click()
     {
+        player = GameObject.FindWithTag("Player");
+        animator = player.GetComponent<Animator>();
+        Camera = GameObject.FindWithTag("MainCamera");
+        timerCanvas = GameObject.FindWithTag("timer");
+
+
         animator.Play("Locomotion", -1, 0);
         player.GetComponent<reponse>().ResetFalling();
         DieMessage.SetActive(false);

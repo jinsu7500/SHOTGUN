@@ -9,10 +9,12 @@ public class game_over : MonoBehaviour
     public GameObject Player;
     public GameObject Camera;
     public Animator animator;
-    
+
+
 
     private void OnTriggerEnter(Collider col)
-    {        
+    {
+        DieMessage = GameObject.Find("Canvas").transform.Find("DieMessage").gameObject;
         if (col.tag == "Player")
         {
             DieMessage.SetActive(true);

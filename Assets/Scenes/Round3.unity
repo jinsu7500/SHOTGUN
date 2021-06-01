@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.24725318, g: 0.28545645, b: 0.34893337, a: 1}
+  m_IndirectSpecularColor: {r: 0.24725306, g: 0.28545645, b: 0.34893346, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -5143,7 +5143,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1021445509}
-  m_RootOrder: 11
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &367806445 stripped
 Transform:
@@ -12208,7 +12208,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1021445509}
-  m_RootOrder: 16
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1012390279 stripped
 Transform:
@@ -12503,7 +12503,11 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
+  - {fileID: 366673280}
   - {fileID: 1830824459}
+  - {fileID: 1252834508}
+  - {fileID: 1026267478}
+  - {fileID: 1001566533}
   - {fileID: 1315772586}
   - {fileID: 696786693}
   - {fileID: 1236484702}
@@ -12514,12 +12518,8 @@ Transform:
   - {fileID: 1931265230}
   - {fileID: 880567457}
   - {fileID: 104310198}
-  - {fileID: 366673280}
   - {fileID: 59865791}
-  - {fileID: 1252834508}
-  - {fileID: 1026267478}
   - {fileID: 592454682}
-  - {fileID: 1001566533}
   - {fileID: 2078794896}
   - {fileID: 1232168404}
   - {fileID: 1517086892}
@@ -12709,7 +12709,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1021445509}
-  m_RootOrder: 14
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1035494000 stripped
 GameObject:
@@ -14645,7 +14645,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1021445509}
-  m_RootOrder: 13
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1252893107 stripped
 Transform:
@@ -21042,7 +21042,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1894938027
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -19,6 +19,9 @@ public class R1_FinaleCutScene : MonoBehaviour
     public void ReceiveSignal()
     {
         Debug.Log("¾À·Îµå");
+        SceneManager.LoadScene("Round2");
+        //SceneManager.LoadScene("Round3");
+
     }
 
     private void OnTriggerEnter(Collider other)

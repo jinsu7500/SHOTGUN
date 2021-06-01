@@ -8,6 +8,10 @@ public class timer : MonoBehaviour
     public bool TimerOn = true;
     private float time;
 
+    private void Awake()
+    {
+        DontDestroyOnLoad(gameObject);
+    }
     // Update is called once per frame
     void Update()
     {
