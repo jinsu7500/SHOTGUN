@@ -94,7 +94,7 @@ public class R1_ShottingSys : MonoBehaviour
                 if (m_currentFireRate <= 0)
                 {
                     m_currentFireRate = m_fireRate;
-                    Debug.Log("발사");
+                    //Debug.Log("발사");
                     animator.SetBool("R1_Anim_Spoon_Trigger_Bool", true); // 애니메이션 재생
                     Fire();
                 }

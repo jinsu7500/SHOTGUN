@@ -8,7 +8,7 @@ public class R1_stoneDelete : MonoBehaviour
     {
         if (collision.collider.tag == "Terrain")
         {
-           Destroy(gameObject,5);
+           Destroy(gameObject,2);
         }
 
         else if (collision.collider.tag == "Player")
