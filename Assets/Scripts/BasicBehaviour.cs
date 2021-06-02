@@ -63,7 +63,7 @@ public class BasicBehaviour : MonoBehaviour
 	{
 		
 		h = Input.GetAxis("Horizontal");
-		v = Input.GetAxis("Vertical");
+		v = Input.GetAxis("Vertical");        
 
 		
 		anim.SetFloat(hFloat, h, 0.1f, Time.deltaTime);
@@ -99,7 +99,7 @@ public class BasicBehaviour : MonoBehaviour
 				if (behaviour.isActiveAndEnabled && currentBehaviour == behaviour.GetBehaviourCode())
 				{
 					isAnyBehaviourActive = true;
-					behaviour.LocalFixedUpdate();
+					behaviour.LocalFixedUpdate();                    
 				}
 			}
 		}
@@ -286,8 +286,8 @@ public class BasicBehaviour : MonoBehaviour
 
 	
 	public bool IsMoving()
-	{
-		return (h != 0)|| (v != 0);
+	{        
+        return (h != 0)|| (v != 0);
 	}
 
 	
@@ -316,7 +316,7 @@ public class BasicBehaviour : MonoBehaviour
 
 	
 	public bool IsGrounded()
-	{
+	{        
 		Ray ray = new Ray(this.transform.position + Vector3.up * 2 * colExtents.x, Vector3.down);
 		return Physics.SphereCast(ray, colExtents.x, colExtents.x + 0.2f);
 	}
