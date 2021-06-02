@@ -15,10 +15,14 @@ public class MoveBehaviour : GenericBehaviour
 	private int jumpBool;                           
 	private int groundedBool;                       
 	private bool jump;                              
-	private bool isColliding;                       
+	private bool isColliding;
 
-	
-	void Start()
+    public AudioClip audioJump;
+    public AudioClip audioRun;
+    AudioSource audioSource;
+    //public AudioSource footSteps;
+
+    void Start()
 	{
 		
 		jumpBool = Animator.StringToHash("Jump");
@@ -29,13 +33,33 @@ public class MoveBehaviour : GenericBehaviour
 		behaviourManager.SubscribeBehaviour(this);
 		behaviourManager.RegisterDefaultBehaviour(this.behaviourCode);
 		speedSeeker = runSpeed;
-	}
+
+        this.audioSource = GetComponent<AudioSource>();       
+
+    }
+
+    //효과음재생 함수
+    void PlaySound(string action)
+    {
+        switch (action)
+        {
+            case "JUMP":
+                audioSource.clip = audioJump;
+                
+                break;
+            case "RUN":
+                audioSource.clip = audioRun;
+                audioSource.loop = true;
+                break;
+        }
+        audioSource.Play();
+    }
 
 	
 	void Update()
 	{
-	
-		if (!jump && Input.GetButtonDown(jumpButton) && behaviourManager.IsCurrentBehaviour(this.behaviourCode) && !behaviourManager.IsOverriding())
+        
+        if (!jump && Input.GetButtonDown(jumpButton) && behaviourManager.IsCurrentBehaviour(this.behaviourCode) && !behaviourManager.IsOverriding())
 		{
 			jump = true;
 		}
@@ -46,9 +70,10 @@ public class MoveBehaviour : GenericBehaviour
 	{
 	
 		MovementManagement(behaviourManager.GetH, behaviourManager.GetV);
+        FootStepSound();
 
-	
-		JumpManagement();
+
+        JumpManagement();
 	}
 
 	
@@ -72,7 +97,9 @@ public class MoveBehaviour : GenericBehaviour
 				float velocity = 2f * Mathf.Abs(Physics.gravity.y) * jumpHeight;
 				velocity = Mathf.Sqrt(velocity);
 				behaviourManager.GetRigidBody.AddForce(Vector3.up * velocity, ForceMode.VelocityChange);
-			}
+                //Debug.Log("점프!");
+                PlaySound("JUMP");
+            }
 		}
 		
 		else if (behaviourManager.GetAnim.GetBool(jumpBool))
@@ -100,15 +127,16 @@ public class MoveBehaviour : GenericBehaviour
 	
 	void MovementManagement(float horizontal, float vertical)
 	{
-	
-		if (behaviourManager.IsGrounded())
-			behaviourManager.GetRigidBody.useGravity = true;
+        if (behaviourManager.IsGrounded())
+        {
+            behaviourManager.GetRigidBody.useGravity = true;            
+        }
 
-	
-		else if (!behaviourManager.GetAnim.GetBool(jumpBool) && behaviourManager.GetRigidBody.velocity.y > 0)
-		{
-			RemoveVerticalVelocity();
-		}
+
+        else if (!behaviourManager.GetAnim.GetBool(jumpBool) && behaviourManager.GetRigidBody.velocity.y > 0)
+        {
+            RemoveVerticalVelocity();
+        }
 
 	
 		Rotating(horizontal, vertical);
@@ -117,16 +145,17 @@ public class MoveBehaviour : GenericBehaviour
 		Vector2 dir = new Vector2(horizontal, vertical);
 		speed = Vector2.ClampMagnitude(dir, 1f).magnitude;
 	
-		speedSeeker += Input.GetAxis("Mouse ScrollWheel");
+		//speedSeeker += Input.GetAxis("Mouse ScrollWheel");
 		speedSeeker = Mathf.Clamp(speedSeeker, walkSpeed, runSpeed);
 		speed *= speedSeeker;
 		if (behaviourManager.IsSprinting())
 		{
 			speed = sprintSpeed;
-		}
+            //Debug.Log("쉬프트달리기!");
+        }
 
 		behaviourManager.GetAnim.SetFloat(speedFloat, speed, speedDampTime, Time.deltaTime);
-	}
+    }
 
 	
 	private void RemoveVerticalVelocity()
@@ -186,4 +215,19 @@ public class MoveBehaviour : GenericBehaviour
 		GetComponent<CapsuleCollider>().material.dynamicFriction = 0.6f;
 		GetComponent<CapsuleCollider>().material.staticFriction = 0.6f;
 	}
+
+
+    void FootStepSound()
+    {
+
+        if (behaviourManager.IsMoving() && !audioSource.isPlaying)
+        {
+            PlaySound("RUN");
+        }
+        else
+            audioSource.loop = false;
+
+
+
+    }
 }
