@@ -27,7 +27,8 @@ public class btn_response : MonoBehaviour
         animator = player.GetComponent<Animator>();
         Camera = GameObject.FindWithTag("MainCamera");
         timerCanvas = GameObject.FindWithTag("timer");
-
+        Cursor.lockState = CursorLockMode.Locked;
+        Cursor.visible = false;
 
         animator.Play("Locomotion", -1, 0);
         player.GetComponent<reponse>().ResetFalling();

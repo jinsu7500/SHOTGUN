@@ -20,8 +20,7 @@ public class game_over : MonoBehaviour
             DieMessage.SetActive(true);
             Cursor.lockState = CursorLockMode.None;
             Cursor.visible = true;
-            timer ti = GameObject.FindWithTag("timer").GetComponent<timer>();
-            ti.TimerOn = false;
+
             Camera.GetComponent<ThirdPersonOrbitCamBasic>().enabled = false;
             Player.GetComponent<MoveBehaviour>().enabled = false;
             animator.Play("Locomotion", -1, 0);
@@ -38,6 +37,8 @@ public class game_over : MonoBehaviour
         Cursor.lockState = CursorLockMode.None;
         Cursor.visible = true;
         DieMessage.SetActive(true);
+        Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = true;
         Camera.GetComponent<ThirdPersonOrbitCamBasic>().enabled = false;
         Player.GetComponent<MoveBehaviour>().enabled = false;
         animator.Play("Locomotion", -1, 0);
