@@ -18,7 +18,8 @@ public class game_over : MonoBehaviour
         if (col.tag == "Player")
         {
             DieMessage.SetActive(true);
-            
+            Cursor.lockState = CursorLockMode.None;
+            Cursor.visible = true;
             timer ti = GameObject.FindWithTag("timer").GetComponent<timer>();
             ti.TimerOn = false;
             Camera.GetComponent<ThirdPersonOrbitCamBasic>().enabled = false;
@@ -34,6 +35,8 @@ public class game_over : MonoBehaviour
 
     public void GameOver() // ÇÁ¸®ÆÕ¿ë
     {
+        Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = true;
         DieMessage.SetActive(true);
         Camera.GetComponent<ThirdPersonOrbitCamBasic>().enabled = false;
         Player.GetComponent<MoveBehaviour>().enabled = false;

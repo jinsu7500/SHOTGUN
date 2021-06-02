@@ -8,7 +8,7 @@ public class R0_BtnControll : MonoBehaviour
     public AudioSource myFx;
     public AudioClip hoverFx;
     public AudioClip clickFx;
-
+    
     public GameObject menu_Image; // 메뉴이미지
     public GameObject canvas; // 캔버스
     public GameObject finalCanvas;
@@ -25,6 +25,8 @@ public class R0_BtnControll : MonoBehaviour
     public void GameStart()
     {
         SceneManager.LoadScene("Round1");
+        Cursor.lockState = CursorLockMode.Locked;
+        Cursor.visible = false;
     }
     public void ExitBtn()
     {
@@ -33,11 +35,21 @@ public class R0_BtnControll : MonoBehaviour
    
     public void ReturnBtn()
     {
-        menu_Image.SetActive(false);           
+        menu_Image.SetActive(false);
+        timer ti = GameObject.Find("Canvas").GetComponent<timer>();
+        ti.menu_bool = !(ti.menu_bool);
 
-        //커서잠금해제    
-        Cursor.lockState = CursorLockMode.Locked;
-        Cursor.visible = false;
+        if (ti.death == true)
+        {
+            Cursor.lockState = CursorLockMode.None;
+            Cursor.visible = true;
+        }
+        else
+        {
+            //커서잠금해제    
+            Cursor.lockState = CursorLockMode.Locked;
+            Cursor.visible = false;
+        }
     }
 
     public void RestartBtn()

@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657844, g: 0.49641222, b: 0.57481694, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -16342,7 +16342,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 0, y: 0, z: 1e-45, w: 1.83671e-40}
+  m_BoundingSphereOverride: {x: 5.82e-43, y: 0.00019613665, z: 5.8e-43, w: 8.431165e-17}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
@@ -20468,8 +20468,10 @@ MonoBehaviour:
   myFx: {fileID: 906861369}
   hoverFx: {fileID: 8300000, guid: 505c5c4af7a65314dace0db8fe5a2ed3, type: 3}
   clickFx: {fileID: 8300000, guid: 9072dbda23fa9f140af7dbc13bae96cc, type: 3}
+  DieMessage: {fileID: 0}
   menu_Image: {fileID: 1810189421}
   canvas: {fileID: 2023133719}
+  finalCanvas: {fileID: 0}
 --- !u!114 &906861371
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23084,8 +23086,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1016720705}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 865.4706, y: -496.90808, z: -2303.536}
+  m_LocalRotation: {x: 0.36905777, y: 0.31201053, z: 0.11819541, w: -0.8674535}
+  m_LocalPosition: {x: 877.4, y: -455.7234, z: -119.83743}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1295005875}
@@ -28121,8 +28123,10 @@ MonoBehaviour:
   myFx: {fileID: 1161357473}
   hoverFx: {fileID: 8300000, guid: 505c5c4af7a65314dace0db8fe5a2ed3, type: 3}
   clickFx: {fileID: 8300000, guid: 9072dbda23fa9f140af7dbc13bae96cc, type: 3}
+  DieMessage: {fileID: 1850046928}
   menu_Image: {fileID: 2023133719}
   canvas: {fileID: 0}
+  finalCanvas: {fileID: 0}
 --- !u!1 &1161827014 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 115018, guid: afd19ab1d4bb70b499bb2f62171a522d,
@@ -45521,7 +45525,9 @@ MonoBehaviour:
   - {fileID: 133560647}
   - {fileID: 143970345}
   TimerOn: 1
+  DieMessage: {fileID: 1850046928}
   menu_Image: {fileID: 1810189421}
+  menu_bool: 0
 --- !u!114 &2023133725
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -46505,8 +46511,10 @@ MonoBehaviour:
   myFx: {fileID: 2059366253}
   hoverFx: {fileID: 8300000, guid: 505c5c4af7a65314dace0db8fe5a2ed3, type: 3}
   clickFx: {fileID: 8300000, guid: 9072dbda23fa9f140af7dbc13bae96cc, type: 3}
+  DieMessage: {fileID: 0}
   menu_Image: {fileID: 1810189421}
   canvas: {fileID: 0}
+  finalCanvas: {fileID: 0}
 --- !u!114 &2059366255
 MonoBehaviour:
   m_ObjectHideFlags: 0

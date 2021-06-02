@@ -7,10 +7,10 @@ public class timer : MonoBehaviour
     public Text[] ClockText;    
     public bool TimerOn = true;
     private float time;
-
+    public GameObject DieMessage;
     public GameObject menu_Image;
     public bool menu_bool;
-
+    public bool death = false;
     private void Awake()
     {
         DontDestroyOnLoad(gameObject);
@@ -47,7 +47,14 @@ public class timer : MonoBehaviour
                 Cursor.visible = false;
                 menu_Image.SetActive(false);
             }
+            if (DieMessage.activeSelf == true)
+            {
+                death = true;
+                Cursor.lockState = CursorLockMode.None;
+                Cursor.visible = true;
+            }
         }
+        
 
     }
 }
