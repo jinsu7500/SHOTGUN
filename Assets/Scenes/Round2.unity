@@ -16594,6 +16594,8 @@ MonoBehaviour:
   - {fileID: 1955776026}
   - {fileID: 1508084019}
   TimerOn: 1
+  menu_Image: {fileID: 0}
+  menu_bool: 0
 --- !u!1 &2055160556 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: 931a75669ffc1214f93c0d969895e8a1,

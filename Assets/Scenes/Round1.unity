@@ -16342,7 +16342,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 0, y: 0, z: 1e-45, w: 1.83671e-40}
+  m_BoundingSphereOverride: {x: 0, y: 1.3e-44, z: 5.671e-42, w: 6e-44}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
@@ -20470,6 +20470,7 @@ MonoBehaviour:
   clickFx: {fileID: 8300000, guid: 9072dbda23fa9f140af7dbc13bae96cc, type: 3}
   menu_Image: {fileID: 1810189421}
   canvas: {fileID: 2023133719}
+  finalCanvas: {fileID: 0}
 --- !u!114 &906861371
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -28123,6 +28124,7 @@ MonoBehaviour:
   clickFx: {fileID: 8300000, guid: 9072dbda23fa9f140af7dbc13bae96cc, type: 3}
   menu_Image: {fileID: 2023133719}
   canvas: {fileID: 0}
+  finalCanvas: {fileID: 0}
 --- !u!1 &1161827014 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 115018, guid: afd19ab1d4bb70b499bb2f62171a522d,
@@ -45522,6 +45524,7 @@ MonoBehaviour:
   - {fileID: 143970345}
   TimerOn: 1
   menu_Image: {fileID: 1810189421}
+  menu_bool: 0
 --- !u!114 &2023133725
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -46507,6 +46510,7 @@ MonoBehaviour:
   clickFx: {fileID: 8300000, guid: 9072dbda23fa9f140af7dbc13bae96cc, type: 3}
   menu_Image: {fileID: 1810189421}
   canvas: {fileID: 0}
+  finalCanvas: {fileID: 0}
 --- !u!114 &2059366255
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -47667,8 +47671,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2119354256}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 957.5606, y: -392.96808, z: -2194.836}
+  m_LocalRotation: {x: -0.2944289, y: 0, z: 0, w: 0.9556734}
+  m_LocalPosition: {x: 86, y: 38.339996, z: 17}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
