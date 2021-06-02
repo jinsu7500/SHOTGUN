@@ -8,6 +8,9 @@ public class timer : MonoBehaviour
     public bool TimerOn = true;
     private float time;
 
+    public GameObject menu_Image;
+    public bool menu_bool;
+
     private void Awake()
     {
         DontDestroyOnLoad(gameObject);
@@ -23,6 +26,28 @@ public class timer : MonoBehaviour
             ClockText[1].text = (((int)time / 60%60)).ToString(); // 분
             ClockText[2].text = (((int)time % 3600)%60).ToString(); //초
         }
+
         
+        if (Input.GetKeyDown(KeyCode.Escape) || Input.GetKeyDown(KeyCode.F1))
+        {
+            menu_bool = !menu_bool;
+
+            if (menu_bool)
+            {
+                //커서잠금해제
+
+                Cursor.lockState = CursorLockMode.None;
+                Cursor.visible = true;
+                menu_Image.SetActive(true);
+            }
+            else
+            {
+                //커서잠금
+                Cursor.lockState = CursorLockMode.Locked;
+                Cursor.visible = false;
+                menu_Image.SetActive(false);
+            }
+        }
+
     }
 }

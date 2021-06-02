@@ -10,6 +10,8 @@ public class R0_BtnControll : MonoBehaviour
     public AudioClip clickFx;
 
     public GameObject menu_Image; // 메뉴이미지
+    public GameObject canvas; // 캔버스
+    public GameObject finalCanvas;
 
     public void HoverSound()
     {
@@ -28,10 +30,10 @@ public class R0_BtnControll : MonoBehaviour
     {
         Application.Quit();
     }
-
+   
     public void ReturnBtn()
     {
-        menu_Image.SetActive(false);        
+        menu_Image.SetActive(false);           
 
         //커서잠금해제    
         Cursor.lockState = CursorLockMode.Locked;
@@ -46,7 +48,16 @@ public class R0_BtnControll : MonoBehaviour
     public void GotoTitleBtn()
     {
         SceneManager.LoadScene("Start_Menu");
+        finalCanvas = GameObject.FindWithTag("timer");
+        finalCanvas.SetActive(false);
+        canvas.SetActive(false);
+
+        if (SceneManager.GetActiveScene().name == "Start_Menu")
+        {
+            Destroy(canvas);
+        }
     }
 
 
 }
+

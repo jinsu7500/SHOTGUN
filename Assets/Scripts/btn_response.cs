@@ -13,7 +13,13 @@ public class btn_response : MonoBehaviour
     public GameObject timerCanvas;
     public Text DeathCount ;
 
-
+    //private void Update()
+    //{
+    //    player = GameObject.FindWithTag("Player");
+    //    animator = player.GetComponent<Animator>();
+    //    Camera = GameObject.FindWithTag("MainCamera");
+    //    timerCanvas = GameObject.FindWithTag("timer");
+    //}
 
     public void response_click()
     {
