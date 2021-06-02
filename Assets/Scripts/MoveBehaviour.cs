@@ -19,6 +19,7 @@ public class MoveBehaviour : GenericBehaviour
 
     public AudioClip audioJump;
     public AudioClip audioRun;
+    public AudioClip audioDie;
     AudioSource audioSource;
     //public AudioSource footSteps;
 
@@ -39,7 +40,7 @@ public class MoveBehaviour : GenericBehaviour
     }
 
     //효과음재생 함수
-    void PlaySound(string action)
+    public void PlaySound(string action)
     {
         switch (action)
         {
@@ -50,6 +51,9 @@ public class MoveBehaviour : GenericBehaviour
             case "RUN":
                 audioSource.clip = audioRun;
                 audioSource.loop = true;
+                break;
+            case "DIE":
+                audioSource.clip = audioDie;
                 break;
         }
         audioSource.Play();

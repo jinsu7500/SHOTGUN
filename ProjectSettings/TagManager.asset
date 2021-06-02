@@ -9,6 +9,9 @@ TagManager:
   - _GM
   - Terrain
   - DieMessage
+  - hour
+  - min
+  - sec
   layers:
   - Default
   - TransparentFX

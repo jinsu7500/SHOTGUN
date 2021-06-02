@@ -26,6 +26,8 @@ public class game_over : MonoBehaviour
             animator.Play("Locomotion", -1, 0);
             animator.Play("Falling Back Death", -1, 0);
 
+            Player.GetComponent<MoveBehaviour>().PlaySound("DIE");
+
 
         }
     }
@@ -37,6 +39,7 @@ public class game_over : MonoBehaviour
         Player.GetComponent<MoveBehaviour>().enabled = false;
         animator.Play("Locomotion", -1, 0);
         animator.Play("Falling Back Death", -1, 0);
+        Player.GetComponent<MoveBehaviour>().PlaySound("DIE");
     }
 
 }
