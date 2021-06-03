@@ -97,7 +97,8 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
-  m_LightingDataAsset: {fileID: 0}
+  m_LightingDataAsset: {fileID: 112000000, guid: 79334040f886fda4cb5bd6cdd713938f,
+    type: 2}
   m_LightingSettings: {fileID: 0}
 --- !u!196 &4
 NavMeshSettings:
@@ -429,6 +430,7 @@ MonoBehaviour:
   clickFx: {fileID: 8300000, guid: 9072dbda23fa9f140af7dbc13bae96cc, type: 3}
   menu_Image: {fileID: 0}
   canvas: {fileID: 838411286}
+  finalCanvas: {fileID: 0}
 --- !u!114 &21623831
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24225,8 +24227,10 @@ MonoBehaviour:
   - {fileID: 2050974094}
   - {fileID: 2061524067}
   TimerOn: 1
+  DieMessage: {fileID: 0}
   menu_Image: {fileID: 0}
   menu_bool: 0
+  death: 0
 --- !u!114 &2020263046
 MonoBehaviour:
   m_ObjectHideFlags: 0
