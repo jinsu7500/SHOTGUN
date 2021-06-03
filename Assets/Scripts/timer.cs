@@ -35,9 +35,9 @@ public class timer : MonoBehaviour
             if (menu_bool)
             {
                 //커서잠금해제
-
                 Cursor.lockState = CursorLockMode.None;
                 Cursor.visible = true;
+
                 menu_Image.SetActive(true);
             }
             else

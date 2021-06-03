@@ -66,6 +66,9 @@ public class R3_EndingTimeLine : MonoBehaviour
         {
             Player.GetComponent<BasicBehaviour>().enabled = false;
             Player.GetComponent<MoveBehaviour>().enabled = false;
+            //커서잠금해제
+            Cursor.lockState = CursorLockMode.None;
+            Cursor.visible = true;
 
             MainCamera.SetActive(false);
             TimeLine.SetActive(true);

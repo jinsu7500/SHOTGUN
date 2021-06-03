@@ -23,12 +23,5 @@ public class move_x_with : MonoBehaviour
         // 좌우 이동의 최대치 및 반전 처리를 이렇게 한줄에 멋있게 하네요.
         transform.position = v;
     }
-    private void OnCollisionEnter(Collision collision)
-    {
-        pTransform.parent = bTransform; //오브젝트의 페어런트를 pTransform으로 지정
-    }
-    private void OnCollisionExit(Collision collision)
-    {
-        pTransform.parent = null; //오브젝트의 페어런트를 해제합니다.
-    }
+
 }
